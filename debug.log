@@ -1528,3 +1528,105 @@ INFO 2024-03-31 13:41:04,085 "GET /finance/list/ HTTP/1.1" 200 9337
 INFO 2024-03-31 13:41:05,229 "GET /staff/list/ HTTP/1.1" 200 9562
 INFO 2024-03-31 13:41:07,019 "GET /subject/list/ HTTP/1.1" 200 11068
 INFO 2024-03-31 13:41:45,368 "GET /subject/list/ HTTP/1.1" 200 11068
+ERROR 2024-03-31 14:07:37,637 "GET /subject/list/ HTTP/1.1" 500 59
+INFO 2024-03-31 14:08:52,646 Watching for file changes with StatReloader
+INFO 2024-03-31 14:08:57,224 "GET / HTTP/1.1" 200 8702
+INFO 2024-03-31 14:08:59,046 "GET /staff/list/ HTTP/1.1" 200 9562
+INFO 2024-03-31 14:09:00,886 "GET /staff/create/ HTTP/1.1" 200 12263
+INFO 2024-03-31 14:09:03,485 - Broken pipe from ('127.0.0.1', 50859)
+INFO 2024-03-31 14:09:03,491 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:09:48,132 Watching for file changes with StatReloader
+INFO 2024-03-31 17:09:49,755 "GET / HTTP/1.1" 302 0
+INFO 2024-03-31 17:09:49,844 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-03-31 17:09:49,961 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2024-03-31 17:09:49,988 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2024-03-31 17:09:55,367 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-03-31 17:09:55,392 "GET / HTTP/1.1" 200 8702
+INFO 2024-03-31 17:09:55,466 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2024-03-31 17:09:58,873 "GET /staff/list/ HTTP/1.1" 200 9562
+INFO 2024-03-31 17:10:00,438 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:12:12,214 "GET /subject/list/ HTTP/1.1" 200 10995
+INFO 2024-03-31 17:12:26,721 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:17:28,617 /Users/arnavgupta/Desktop/itl/Django-School-Management-System-master/apps/corecode/forms.py changed, reloading.
+INFO 2024-03-31 17:17:29,636 Watching for file changes with StatReloader
+INFO 2024-03-31 17:17:37,193 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:18:20,405 /Users/arnavgupta/Desktop/itl/Django-School-Management-System-master/apps/corecode/forms.py changed, reloading.
+INFO 2024-03-31 17:18:21,233 Watching for file changes with StatReloader
+INFO 2024-03-31 17:21:33,320 Watching for file changes with StatReloader
+INFO 2024-03-31 17:21:35,951 "GET / HTTP/1.1" 200 8702
+INFO 2024-03-31 17:21:38,357 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:21:45,092 "GET /staff/list/ HTTP/1.1" 200 9562
+INFO 2024-03-31 17:26:28,705 /Users/arnavgupta/Desktop/itl/Django-School-Management-System-master/apps/corecode/views.py changed, reloading.
+INFO 2024-03-31 17:26:29,663 Watching for file changes with StatReloader
+INFO 2024-03-31 17:26:34,350 "GET /staff/list/ HTTP/1.1" 200 9562
+INFO 2024-03-31 17:26:35,972 "GET /staff/create/ HTTP/1.1" 200 12263
+INFO 2024-03-31 17:26:38,155 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:26:38,227 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:26:55,986 /Users/arnavgupta/Desktop/itl/Django-School-Management-System-master/apps/corecode/views.py changed, reloading.
+INFO 2024-03-31 17:26:56,852 Watching for file changes with StatReloader
+INFO 2024-03-31 17:26:59,835 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:29:37,389 /Users/arnavgupta/Desktop/itl/Django-School-Management-System-master/apps/corecode/views.py changed, reloading.
+INFO 2024-03-31 17:29:38,432 Watching for file changes with StatReloader
+INFO 2024-03-31 17:29:41,088 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:32:35,773 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:32:38,168 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:33:17,957 /Users/arnavgupta/Desktop/itl/Django-School-Management-System-master/apps/corecode/views.py changed, reloading.
+INFO 2024-03-31 17:33:18,894 Watching for file changes with StatReloader
+INFO 2024-03-31 17:33:20,108 /Users/arnavgupta/Desktop/itl/Django-School-Management-System-master/apps/corecode/views.py changed, reloading.
+INFO 2024-03-31 17:33:20,713 Watching for file changes with StatReloader
+INFO 2024-03-31 17:33:32,097 /Users/arnavgupta/Desktop/itl/Django-School-Management-System-master/apps/corecode/views.py changed, reloading.
+INFO 2024-03-31 17:33:32,700 Watching for file changes with StatReloader
+INFO 2024-03-31 17:33:38,135 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:34:24,770 /Users/arnavgupta/Desktop/itl/Django-School-Management-System-master/apps/corecode/views.py changed, reloading.
+INFO 2024-03-31 17:34:25,814 Watching for file changes with StatReloader
+INFO 2024-03-31 17:34:41,086 "GET /subject/list/ HTTP/1.1" 200 11068
+INFO 2024-03-31 17:34:46,145 "POST /subject/create/ HTTP/1.1" 200 9838
+INFO 2024-03-31 17:34:57,814 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-03-31 17:34:58,000 "GET /subject/list/ HTTP/1.1" 200 11427
+INFO 2024-03-31 17:35:04,309 "POST /subject/create/ HTTP/1.1" 200 9838
+INFO 2024-03-31 17:35:39,938 /Users/arnavgupta/Desktop/itl/Django-School-Management-System-master/apps/corecode/views.py changed, reloading.
+INFO 2024-03-31 17:35:40,818 Watching for file changes with StatReloader
+INFO 2024-03-31 17:35:47,507 "GET /staff/list/ HTTP/1.1" 200 9562
+INFO 2024-03-31 17:35:51,257 "GET /staff/create/ HTTP/1.1" 200 12263
+INFO 2024-03-31 17:35:53,432 - Broken pipe from ('127.0.0.1', 51408)
+INFO 2024-03-31 17:35:53,434 "GET /subject/list/ HTTP/1.1" 200 11282
+INFO 2024-03-31 17:35:53,785 "GET /subject/list/ HTTP/1.1" 200 11282
+INFO 2024-03-31 17:35:57,961 "POST /subject/create/ HTTP/1.1" 200 9838
+INFO 2024-03-31 17:36:01,929 "GET /subject/list/ HTTP/1.1" 200 11282
+INFO 2024-03-31 17:36:18,143 "GET /subject/2/delete/ HTTP/1.1" 200 9397
+INFO 2024-03-31 17:36:19,525 "POST /subject/2/delete/ HTTP/1.1" 302 0
+INFO 2024-03-31 17:36:19,553 "GET /subject/list/ HTTP/1.1" 200 11065
+INFO 2024-03-31 17:36:21,882 "GET /subject/1/delete/ HTTP/1.1" 200 9405
+INFO 2024-03-31 17:36:22,746 "POST /subject/1/delete/ HTTP/1.1" 302 0
+INFO 2024-03-31 17:36:22,778 "GET /subject/list/ HTTP/1.1" 200 10844
+INFO 2024-03-31 17:36:24,531 "GET /subject/4/delete/ HTTP/1.1" 200 9391
+INFO 2024-03-31 17:36:25,297 "POST /subject/4/delete/ HTTP/1.1" 302 0
+INFO 2024-03-31 17:36:25,327 "GET /subject/list/ HTTP/1.1" 200 10630
+INFO 2024-03-31 17:36:27,259 "GET /subject/3/delete/ HTTP/1.1" 200 9393
+INFO 2024-03-31 17:36:28,272 "POST /subject/3/delete/ HTTP/1.1" 302 0
+INFO 2024-03-31 17:36:28,328 "GET /subject/list/ HTTP/1.1" 200 10415
+INFO 2024-03-31 17:36:36,641 "POST /subject/create/ HTTP/1.1" 200 9838
+INFO 2024-03-31 17:36:44,543 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-03-31 17:36:44,567 "GET /subject/list/ HTTP/1.1" 200 10774
+INFO 2024-03-31 17:36:46,889 "GET /subject/5/delete/ HTTP/1.1" 200 9391
+INFO 2024-03-31 17:36:47,879 "POST /subject/5/delete/ HTTP/1.1" 302 0
+INFO 2024-03-31 17:36:47,916 "GET /subject/list/ HTTP/1.1" 200 10415
+INFO 2024-03-31 17:37:46,396 "GET /subject/list/ HTTP/1.1" 200 10575
+INFO 2024-03-31 17:37:50,010 "POST /subject/create/ HTTP/1.1" 200 9838
+INFO 2024-03-31 17:37:52,874 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-03-31 17:37:52,894 "GET /subject/list/ HTTP/1.1" 200 11044
+INFO 2024-03-31 17:40:32,730 "POST /subject/create/ HTTP/1.1" 200 9838
+INFO 2024-03-31 17:40:40,770 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-03-31 17:40:40,798 "GET /subject/list/ HTTP/1.1" 200 11370
+INFO 2024-03-31 17:42:54,575 "GET /student/list HTTP/1.1" 200 9903
+INFO 2024-03-31 17:42:56,268 "GET /student/create/ HTTP/1.1" 200 13024
+INFO 2024-03-31 17:43:02,138 "GET /subject/list/ HTTP/1.1" 200 11225
+INFO 2024-03-31 17:44:00,485 "POST /subject/create/ HTTP/1.1" 200 9838
+INFO 2024-03-31 17:49:46,153 Watching for file changes with StatReloader
+INFO 2024-03-31 17:50:59,632 Watching for file changes with StatReloader
+INFO 2024-03-31 17:51:02,387 "GET / HTTP/1.1" 200 8702
+INFO 2024-03-31 17:51:05,533 "GET /subject/list/ HTTP/1.1" 200 11225
+INFO 2024-03-31 17:51:08,553 "POST /subject/create/ HTTP/1.1" 200 9838
+INFO 2024-03-31 17:51:12,524 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-03-31 17:51:12,535 "GET / HTTP/1.1" 302 0
+INFO 2024-03-31 17:51:12,550 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981

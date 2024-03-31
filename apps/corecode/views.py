@@ -218,12 +218,19 @@ class SubjectCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     template_name = "corecode/mgt_form.html"
     success_url = reverse_lazy("subjects")
     success_message = "New subject successfully added"
+    
+    def get(self, request, *args, **kwargs):
+        print("Inside get method of SubjectCreateView")  # Add this line for debugging
+        return super().get(request, *args, **kwargs)
+    
     def get_context_data(self, **kwargs):
+        print("Inside get_context_data method of SubjectCreateView")  # Add this line for debugging
         context = super().get_context_data(**kwargs)
         context['title'] = "Add New Subject"
-        context['staff_list'] = Staff.objects.all()  # Retrieve all staff members
-        print(context['staff_list'])
+        staff_list = Staff.objects.values_list('EmpId', flat=True)
+        context['staff_list'] = staff_list
         return context
+
 
 
 class SubjectUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):

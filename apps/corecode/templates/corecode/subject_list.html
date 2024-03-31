@@ -16,11 +16,22 @@ Subjects
   <div class="row">
     <div class="col-sm-12">
       <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Subject Name</th>
+            <th>Staff EmpId</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
         <tbody>
           {% for subject in object_list %}
           <tr>
-            <td>{{ subject }}</td>
-            <td><a href="{% url 'subject-update' subject.id %}"><i class="fa fa-edit"></i></a> <a href="{% url 'subject-delete' subject.id %}"><i class="fa fa-trash-alt"></i></a></td>
+            <td>{{ subject.name }}</td>
+            <td>{{ subject.staff.EmpId }}</td>  <!-- Display the EmpId of the staff member -->
+            <td>
+              <a href="{% url 'subject-update' subject.id %}"><i class="fa fa-edit"></i></a>
+              <a href="{% url 'subject-delete' subject.id %}"><i class="fa fa-trash-alt"></i></a>
+            </td>
           </tr>
           {% endfor %}
         </tbody>
