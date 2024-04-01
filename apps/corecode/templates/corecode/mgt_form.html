@@ -18,12 +18,12 @@
           <div class="form-group">
             {{ field.label_tag }}
             {% if field.name == 'staff' %}
-              <select name="{{ field.name }}" class="form-control" required>
-                <option value="" selected disabled>Select Staff</option>
-                {% for staff in staff_list %}
-                  <option value="{{ staff.id }}">{{ staff }}</option>
-                {% endfor %}
-              </select>
+            <select name="staff" class="form-control" required>
+              <option value="" selected disabled>Select Staff</option>
+              {% for staff in staff_list %}
+                  <option value="{{ staff }}">{{ staff }}</option>
+              {% endfor %}
+          </select>
             {% else %}
               {{ field | add_class:"form-control" | add_error_class:"is-invalid" | attr:"required" }}
             {% endif %}

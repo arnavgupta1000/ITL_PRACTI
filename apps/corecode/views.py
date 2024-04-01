@@ -2,10 +2,12 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.messages.views import SuccessMessageMixin
+from django.http import Http404
 from django.shortcuts import HttpResponseRedirect, redirect, render
 from django.urls import reverse_lazy
 from django.views.generic import ListView, TemplateView, View
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
+from django.shortcuts import get_object_or_404
 
 from apps.staffs.models import Staff
 
@@ -212,19 +214,21 @@ class SubjectListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
         return context
 
 
+from django.http import Http404
+
+
 class SubjectCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     model = Subject
     form_class = SubjectForm
     template_name = "corecode/mgt_form.html"
     success_url = reverse_lazy("subjects")
     success_message = "New subject successfully added"
-    
-    def get(self, request, *args, **kwargs):
-        print("Inside get method of SubjectCreateView")  # Add this line for debugging
-        return super().get(request, *args, **kwargs)
-    
+
+    def form_valid(self, form):
+        form.instance.staff = Staff.objects.get(EmpId=self.request.POST.get('staff'))
+        return super().form_valid(form)
+
     def get_context_data(self, **kwargs):
-        print("Inside get_context_data method of SubjectCreateView")  # Add this line for debugging
         context = super().get_context_data(**kwargs)
         context['title'] = "Add New Subject"
         staff_list = Staff.objects.values_list('EmpId', flat=True)
@@ -233,12 +237,16 @@ class SubjectCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
 
 
 
+
+
 class SubjectUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     model = Subject
-    fields = ["name"]
+    form_class = SubjectForm
+    fields = ["name", "staff"]
     success_url = reverse_lazy("subjects")
     success_message = "Subject successfully updated."
     template_name = "corecode/mgt_form.html"
+
 
 
 class SubjectDeleteView(LoginRequiredMixin, DeleteView):

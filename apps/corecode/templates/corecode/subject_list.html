@@ -19,7 +19,8 @@ Subjects
         <thead>
           <tr>
             <th>Subject Name</th>
-            <th>Staff EmpId</th>
+            <th>Mentor Name</th>
+            <th>Mentor Id</th>
             <th>Actions</th>
           </tr>
         </thead>
@@ -27,13 +28,15 @@ Subjects
           {% for subject in object_list %}
           <tr>
             <td>{{ subject.name }}</td>
-            <td>{{ subject.staff.EmpId }}</td>  <!-- Display the EmpId of the staff member -->
+            <td>{{ subject.staff }}</td>  <!-- Debug output: check if this resolves to a staff instance -->
+            <td>{{ subject.staff.EmpId }}</td>  <!-- Debug output: check if this resolves to the EmpId -->
             <td>
               <a href="{% url 'subject-update' subject.id %}"><i class="fa fa-edit"></i></a>
               <a href="{% url 'subject-delete' subject.id %}"><i class="fa fa-trash-alt"></i></a>
             </td>
           </tr>
-          {% endfor %}
+        {% endfor %}
+        
         </tbody>
       </table>
     </div>
@@ -60,9 +63,9 @@ Subjects
               <select name="staff" class="form-control" id="id_staff">
                 <option value="" selected disabled>Select Staff</option>
                 {% for staff in staff_list %}
-                  <option value="{{ staff.EmpId }}">{{ staff }}</option>
+                    <option value="{{ staff.EmpId }}">{{ staff }}</option>
                 {% endfor %}
-              </select>
+            </select>
             </div>
           </div>
           <div class="modal-footer">
