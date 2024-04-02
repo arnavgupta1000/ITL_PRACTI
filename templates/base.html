@@ -76,7 +76,7 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
-      <a href="{% url 'home' %}" class="brand-link">{{ school_name | default:"MySchool" }}</a>
+      <a href="{% url 'home' %}" class="brand-link">{{ school_name | default:"My School" }}</a>
 
       <!-- Sidebar -->
       <div class="sidebar">
@@ -97,17 +97,24 @@
               <a href="{% url 'staff-list' %}" class="nav-link">
                 <i class="nav-icon fas fa-users"></i>
                 <p>
-                  Member of Staff
+                  Staff
                 </p>
               </a>
             </li>
-
+            <li class="nav-item">
+              <a href="{% url 'student-assign' %}" class="nav-link">
+                <i class="nav-icon fas fa-users"></i>
+                <p>
+                  Assign Projects
+                </p>
+              </a>
+            </li>
             <li class="nav-header">Project</li>
             <li class="nav-item">
               <a href="{% url 'subjects' %}" class="nav-link">
                 <i class="nav-icon fas fa-money-bill-alt"></i>
                 <p>
-                  Project Manage
+                  Manage Project
                 </p>
               </a>
             </li>

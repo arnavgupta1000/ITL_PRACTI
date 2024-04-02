@@ -8,10 +8,13 @@ from .views import (
     StudentDetailView,
     StudentListView,
     StudentUpdateView,
+    StudentAssignView,
 )
 
 urlpatterns = [
     path("list", StudentListView.as_view(), name="student-list"),
+    #path("assign", StudentAssignView.as_view(), name="student-assign")
+    path("assign", StudentAssignView.as_view(), name="student-assign"),
     path("<int:pk>/", StudentDetailView.as_view(), name="student-detail"),
     path("create/", StudentCreateView.as_view(), name="student-create"),
     path("<int:pk>/update/", StudentUpdateView.as_view(), name="student-update"),
