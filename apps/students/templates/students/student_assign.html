@@ -1,14 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}Students{% endblock title %}
-
-{% block breadcrumb %}
-<a class="btn btn-primary" href="{% url 'student-create' %}"><i
-    class="fas fa-plus"></i> New student</a>
-<a class="btn btn-primary" href="{% url 'student-upload' %}"><i
-    class="fas fa-upload"></i> Upload students</a>
-{% endblock breadcrumb %}
-
+{% block title %}Assign Project{% endblock title %}
 {% block content %}
   <div class="table-responsive">
     <table id="studenttable" class="table table-bordered table-hover" data-page-length='100'>
@@ -18,22 +10,24 @@
           <th>Full Name</th>
           <th>Registration Number</th>
           <th>Class</th>
-          <th>Gender</th>
-          <th>Phone Number</th>
-          <th>Status</th>
+          <th>Project</th>
         </tr>
       </thead>
       <tbody>
 
         {% for student in object_list %}
-          <tr class='clickable-row' data-href="{% url 'student-detail' student.id %}">
+          <tr>
             <td>{{ forloop.counter}}</td>
             <td>{{ student.surname}} {{student.firstname }} {{student.other_name }}</td>
             <td>{{ student.registration_number}}</td>
             <td>{{ student.current_class}}</td>
-            <td>{{ student.get_gender_display}}</td>
-            <td>{{ student.parent_mobile_number}}</td>
-            <td>{{ student.get_current_status_display}}</td>
+            <td> 
+              <select name="project" id="project" style="width:auto">
+                <option value="Project1">Project1</option>
+                <option value="Project2">Project2</option>
+                <option value="Project3">Project3</option>
+              </select>
+            </td>
           </tr>
         {% endfor %}
 
@@ -45,8 +39,7 @@
 
 {% block morejs %}
 <script>
-  $('#studenttable').DataTable({
-  });
+  $('#studenttable').DataTable({});
 </script>
 
 {% endblock morejs %}

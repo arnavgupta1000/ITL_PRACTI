@@ -630,3 +630,561 @@ INFO 2024-04-01 09:47:09,408 "POST /result/create/ HTTP/1.1" 200 10230
 INFO 2024-04-01 09:47:22,196 "GET /result/create/ HTTP/1.1" 200 10149
 INFO 2024-04-01 09:47:26,405 "POST /result/create/ HTTP/1.1" 200 10230
 INFO 2024-04-01 09:48:04,073 "GET /subject/list/ HTTP/1.1" 200 11496
+INFO 2024-04-01 17:01:16,091 Watching for file changes with StatReloader
+INFO 2024-04-01 17:01:20,220 "GET / HTTP/1.1" 302 0
+INFO 2024-04-01 17:01:20,245 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-01 17:01:20,418 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2024-04-01 17:01:20,426 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-04-01 17:01:20,427 "GET /static/dist/css/login-page.css HTTP/1.1" 200 9064
+INFO 2024-04-01 17:01:20,429 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2024-04-01 17:01:20,430 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2024-04-01 17:01:20,435 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2024-04-01 17:01:20,454 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2024-04-01 17:01:20,465 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2024-04-01 17:01:20,467 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2024-04-01 17:01:20,476 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2024-04-01 17:01:20,483 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2024-04-01 17:01:20,485 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2024-04-01 17:01:20,487 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2024-04-01 17:01:20,507 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2024-04-01 17:01:26,070 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-01 17:01:26,116 "GET / HTTP/1.1" 200 8702
+INFO 2024-04-01 17:01:26,140 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:01:26,141 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:01:26,143 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:01:26,143 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:01:26,144 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:01:26,147 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:01:26,148 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:01:26,148 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:01:26,148 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:01:26,148 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:01:26,150 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:01:26,152 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2024-04-01 17:01:26,204 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-04-01 17:01:26,338 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2024-04-01 17:01:29,566 "GET /subject/list/ HTTP/1.1" 200 11496
+INFO 2024-04-01 17:01:29,602 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,158 "GET /subject/list/ HTTP/1.1" 200 11486
+INFO 2024-04-01 17:02:44,188 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,191 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,196 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,198 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,198 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,199 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,199 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,200 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,200 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,203 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,205 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,205 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:44,206 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:02:49,581 "GET /subject/list/ HTTP/1.1" 200 11486
+INFO 2024-04-01 17:04:56,617 "GET /subject/list/ HTTP/1.1" 200 11486
+INFO 2024-04-01 17:04:56,655 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,656 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,657 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,658 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,658 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,660 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,661 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,661 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,661 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,663 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,663 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,663 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:04:56,663 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:05:00,636 "GET /subject/list/ HTTP/1.1" 200 11486
+ERROR 2024-04-01 17:05:57,299 Internal Server Error: /subject/list/
+Traceback (most recent call last):
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'subject-list' not found. 'subject-list' is not a valid view function or pattern name.
+ERROR 2024-04-01 17:05:57,303 "GET /subject/list/ HTTP/1.1" 500 141264
+ERROR 2024-04-01 17:32:49,825 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'staff' not found. 'staff' is not a valid view function or pattern name.
+ERROR 2024-04-01 17:32:49,840 "GET / HTTP/1.1" 500 136284
+INFO 2024-04-01 17:32:51,175 "GET /accounts/login/?next=/ HTTP/1.1" 200 4068
+INFO 2024-04-01 17:33:37,007 "GET / HTTP/1.1" 200 8704
+INFO 2024-04-01 17:33:37,040 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,040 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,053 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,053 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,069 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,069 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,069 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,069 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,069 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,069 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,069 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,084 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,069 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,137 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-01 17:33:37,137 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-01 17:34:07,992 "GET / HTTP/1.1" 200 8947
+INFO 2024-04-01 17:34:08,735 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-01 17:35:24,038 C:\Users\Kaustubh Singh\Downloads\ITL_PRACTI\apps\students\urls.py changed, reloading.
+INFO 2024-04-01 17:35:24,465 Watching for file changes with StatReloader
+INFO 2024-04-01 17:39:20,760 C:\Users\Kaustubh Singh\Downloads\ITL_PRACTI\apps\students\urls.py changed, reloading.
+INFO 2024-04-01 17:39:21,259 Watching for file changes with StatReloader
+INFO 2024-04-01 17:41:50,709 Watching for file changes with StatReloader
+INFO 2024-04-01 17:42:35,213 C:\Users\Kaustubh Singh\Downloads\ITL_PRACTI\apps\students\urls.py changed, reloading.
+INFO 2024-04-01 17:42:35,687 Watching for file changes with StatReloader
+INFO 2024-04-01 17:42:38,491 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-01 17:42:38,525 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,527 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,529 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,529 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,532 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,532 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,532 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,535 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,535 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,535 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,535 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,535 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,535 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,656 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:38,656 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-01 17:42:40,636 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-01 17:42:52,579 C:\Users\Kaustubh Singh\Downloads\ITL_PRACTI\apps\students\urls.py changed, reloading.
+INFO 2024-04-01 17:42:53,043 Watching for file changes with StatReloader
+INFO 2024-04-01 17:42:55,724 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-01 17:42:56,430 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-01 17:42:57,180 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-01 17:43:47,219 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-01 19:56:17,811 Watching for file changes with StatReloader
+INFO 2024-04-01 19:56:22,640 "GET / HTTP/1.1" 302 0
+INFO 2024-04-01 19:56:22,673 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-01 19:56:22,864 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2024-04-01 19:56:22,865 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2024-04-01 19:56:22,870 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2024-04-01 19:56:22,870 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-04-01 19:56:22,875 "GET /static/dist/css/login-page.css HTTP/1.1" 200 9064
+INFO 2024-04-01 19:56:22,878 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2024-04-01 19:56:22,898 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2024-04-01 19:56:22,911 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2024-04-01 19:56:22,924 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2024-04-01 19:56:22,925 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2024-04-01 19:56:22,927 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2024-04-01 19:56:22,929 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2024-04-01 19:56:22,931 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2024-04-01 19:56:23,010 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2024-04-01 19:56:23,260 Not Found: /favicon.ico
+WARNING 2024-04-01 19:56:23,260 "GET /favicon.ico HTTP/1.1" 404 6202
+INFO 2024-04-01 19:56:27,232 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-01 19:56:27,275 "GET / HTTP/1.1" 200 8947
+INFO 2024-04-01 19:56:27,309 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2024-04-01 19:56:27,368 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-04-01 19:56:27,517 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2024-04-01 19:56:29,132 "GET /subject/list/ HTTP/1.1" 200 11741
+INFO 2024-04-01 19:56:29,840 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-02 16:30:38,966 Watching for file changes with StatReloader
+INFO 2024-04-02 16:30:45,773 "GET / HTTP/1.1" 302 0
+INFO 2024-04-02 16:30:45,869 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-02 16:30:46,050 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2024-04-02 16:30:46,055 "GET /static/dist/css/login-page.css HTTP/1.1" 200 9064
+INFO 2024-04-02 16:30:46,058 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-04-02 16:30:46,059 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2024-04-02 16:30:46,060 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2024-04-02 16:30:46,070 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2024-04-02 16:30:46,105 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2024-04-02 16:30:46,106 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2024-04-02 16:30:46,110 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2024-04-02 16:30:46,118 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2024-04-02 16:30:46,122 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2024-04-02 16:30:46,125 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2024-04-02 16:30:46,129 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2024-04-02 16:30:46,308 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2024-04-02 16:30:46,475 Not Found: /favicon.ico
+WARNING 2024-04-02 16:30:46,476 "GET /favicon.ico HTTP/1.1" 404 6202
+INFO 2024-04-02 16:30:50,736 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-02 16:30:50,778 "GET / HTTP/1.1" 200 8947
+INFO 2024-04-02 16:30:50,810 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2024-04-02 16:30:50,879 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-04-02 16:30:51,191 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2024-04-02 16:30:53,045 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-02 16:32:11,993 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-02 16:32:12,622 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-02 16:32:34,223 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-02 16:32:35,387 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-02 16:32:35,964 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-02 16:32:43,296 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-02 16:32:53,639 "GET /student/list HTTP/1.1" 200 10136
+INFO 2024-04-02 16:32:58,220 "GET /subject/list/ HTTP/1.1" 200 11741
+INFO 2024-04-02 16:32:59,569 "GET /subject/list/ HTTP/1.1" 200 11741
+INFO 2024-04-02 16:33:00,091 "GET /subject/list/ HTTP/1.1" 200 11741
+INFO 2024-04-02 16:33:00,282 "GET /subject/list/ HTTP/1.1" 200 11741
+INFO 2024-04-02 16:33:00,470 "GET /subject/list/ HTTP/1.1" 200 11741
+INFO 2024-04-02 16:33:01,551 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-02 16:33:02,072 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-02 16:33:02,533 "GET /student/list HTTP/1.1" 200 10148
+INFO 2024-04-02 16:33:33,220 "GET /student/list HTTP/1.1" 200 10150
+ERROR 2024-04-02 16:33:34,088 Internal Server Error: /student/assign
+Traceback (most recent call last):
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 475, in parse
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Empty variable tag on line 24
+ERROR 2024-04-02 16:33:34,090 "GET /student/assign HTTP/1.1" 500 181220
+INFO 2024-04-02 16:33:53,108 "GET /student/assign HTTP/1.1" 200 9832
+INFO 2024-04-02 16:34:06,657 "GET /student/assign HTTP/1.1" 200 9776
+INFO 2024-04-02 16:34:12,871 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 16:34:15,477 "GET /student/list HTTP/1.1" 200 10150
+INFO 2024-04-02 16:34:16,290 "GET /staff/list/ HTTP/1.1" 200 9590
+INFO 2024-04-02 16:34:16,905 "GET /student/assign HTTP/1.1" 200 9776
+INFO 2024-04-02 16:34:19,240 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 16:34:20,265 "GET /result/create/ HTTP/1.1" 200 10396
+INFO 2024-04-02 16:34:21,857 "GET /result/view/all HTTP/1.1" 200 8493
+INFO 2024-04-02 16:34:23,693 "GET /finance/list/ HTTP/1.1" 200 9584
+ERROR 2024-04-02 16:34:25,933 Internal Server Error: /class/list/
+Traceback (most recent call last):
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: corecode/class_list.html, corecode/studentclass_list.html
+ERROR 2024-04-02 16:34:25,935 "GET /class/list/ HTTP/1.1" 500 85499
+INFO 2024-04-02 16:34:28,271 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 16:34:28,915 "GET /student/assign HTTP/1.1" 200 9776
+INFO 2024-04-02 16:34:29,892 "GET /staff/list/ HTTP/1.1" 200 9590
+INFO 2024-04-02 16:34:30,516 "GET /student/list HTTP/1.1" 200 10150
+INFO 2024-04-02 16:34:31,144 "GET /student/assign HTTP/1.1" 200 9776
+INFO 2024-04-02 16:34:36,640 "GET /student/assign HTTP/1.1" 200 9776
+INFO 2024-04-02 16:34:42,295 "GET /student/assign HTTP/1.1" 200 9777
+INFO 2024-04-02 16:34:58,852 "GET /student/assign HTTP/1.1" 200 9777
+INFO 2024-04-02 16:35:07,077 "GET /student/assign HTTP/1.1" 200 9777
+INFO 2024-04-02 16:35:34,859 "GET /student/assign HTTP/1.1" 200 9777
+INFO 2024-04-02 19:49:24,591 Watching for file changes with StatReloader
+INFO 2024-04-02 19:49:27,419 "GET / HTTP/1.1" 302 0
+INFO 2024-04-02 19:49:27,442 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-02 19:49:27,604 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2024-04-02 19:49:27,607 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2024-04-02 19:49:27,607 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2024-04-02 19:49:27,611 "GET /static/dist/css/login-page.css HTTP/1.1" 200 9064
+INFO 2024-04-02 19:49:27,612 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2024-04-02 19:49:27,615 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-04-02 19:49:27,618 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2024-04-02 19:49:27,619 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2024-04-02 19:49:27,619 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2024-04-02 19:49:27,620 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2024-04-02 19:49:27,625 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2024-04-02 19:49:27,625 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2024-04-02 19:49:27,627 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2024-04-02 19:49:27,766 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2024-04-02 19:49:27,882 Not Found: /favicon.ico
+WARNING 2024-04-02 19:49:27,882 "GET /favicon.ico HTTP/1.1" 404 6202
+INFO 2024-04-02 19:49:31,288 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-02 19:49:31,309 "GET / HTTP/1.1" 200 8949
+INFO 2024-04-02 19:49:31,328 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2024-04-02 19:49:31,343 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+INFO 2024-04-02 19:49:31,403 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-04-02 19:49:32,673 "GET /student/assign HTTP/1.1" 200 9777
+INFO 2024-04-02 19:50:01,263 "GET /student/1/ HTTP/1.1" 200 10767
+INFO 2024-04-02 19:50:01,294 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2024-04-02 19:50:40,641 "GET /student/assign HTTP/1.1" 200 9777
+INFO 2024-04-02 19:50:41,235 "GET /staff/list/ HTTP/1.1" 200 9590
+INFO 2024-04-02 19:50:41,819 "GET /student/list HTTP/1.1" 200 10150
+INFO 2024-04-02 19:50:42,542 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 19:50:44,599 "GET /student/assign HTTP/1.1" 200 9777
+INFO 2024-04-02 19:50:47,626 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 19:50:58,810 "GET /student/list HTTP/1.1" 200 10150
+INFO 2024-04-02 19:50:59,350 "GET /staff/list/ HTTP/1.1" 200 9590
+ERROR 2024-04-02 19:51:20,637 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\contrib\auth\mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\Downloads\ITL_PRACTI\apps\corecode\views.py", line 277, in get
+    return render(request, self.template_name, {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kaustubh Singh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: corecode/current_session.html
+ERROR 2024-04-02 19:51:20,637 "GET /current-session/ HTTP/1.1" 500 97912
+INFO 2024-04-02 19:51:31,330 "GET / HTTP/1.1" 200 8949
+INFO 2024-04-02 19:51:34,904 "GET / HTTP/1.1" 200 8949
+INFO 2024-04-02 19:51:35,659 "GET /student/list HTTP/1.1" 200 10150
+INFO 2024-04-02 19:51:38,200 "GET /staff/list/ HTTP/1.1" 200 9590
+INFO 2024-04-02 19:51:39,637 "GET /student/assign HTTP/1.1" 200 9777
+INFO 2024-04-02 19:51:44,473 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 19:51:45,316 "GET /result/create/ HTTP/1.1" 200 10396
+INFO 2024-04-02 19:51:45,802 "GET /result/edit-results/ HTTP/1.1" 200 9763
+INFO 2024-04-02 19:51:46,334 "GET /result/view/all HTTP/1.1" 200 8493
+INFO 2024-04-02 19:51:49,105 "GET /student/assign HTTP/1.1" 200 9777
+INFO 2024-04-02 19:51:49,652 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 19:53:07,940 C:\Users\Kaustubh Singh\Downloads\ITL_PRACTI\apps\students\urls.py changed, reloading.
+INFO 2024-04-02 19:53:08,441 Watching for file changes with StatReloader
+INFO 2024-04-02 19:53:12,741 C:\Users\Kaustubh Singh\Downloads\ITL_PRACTI\apps\students\views.py changed, reloading.
+INFO 2024-04-02 19:53:13,145 Watching for file changes with StatReloader
+INFO 2024-04-02 19:53:52,653 "GET /student/list HTTP/1.1" 200 10150
+INFO 2024-04-02 19:54:12,746 "GET /student/list HTTP/1.1" 200 10136
+INFO 2024-04-02 19:54:20,849 "GET /student/create/ HTTP/1.1" 200 13271
+INFO 2024-04-02 19:55:00,129 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 19:55:01,964 "GET /student/assign HTTP/1.1" 200 9777
+INFO 2024-04-02 19:55:03,425 "GET /student/assign HTTP/1.1" 200 9777
+INFO 2024-04-02 19:55:06,188 "GET /student/assign HTTP/1.1" 200 10419
+INFO 2024-04-02 19:55:07,480 "GET /student/1/ HTTP/1.1" 200 10767
+INFO 2024-04-02 19:55:27,855 "GET /student/list HTTP/1.1" 200 10136
+INFO 2024-04-02 19:55:28,612 "GET /staff/list/ HTTP/1.1" 200 9590
+INFO 2024-04-02 19:56:06,366 "GET /staff/list/ HTTP/1.1" 200 9582
+INFO 2024-04-02 19:56:10,122 "GET /student/assign HTTP/1.1" 200 10419
+INFO 2024-04-02 19:56:12,168 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 19:56:54,557 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 19:56:55,541 "GET /student/assign HTTP/1.1" 200 10419
+INFO 2024-04-02 19:56:56,534 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 19:57:32,770 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 19:57:44,231 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 19:57:45,270 "GET /student/list HTTP/1.1" 200 10136
+INFO 2024-04-02 19:57:45,734 "GET /staff/list/ HTTP/1.1" 200 9582
+INFO 2024-04-02 19:57:46,307 "GET /student/assign HTTP/1.1" 200 10419
+INFO 2024-04-02 19:57:47,300 "GET /subject/list/ HTTP/1.1" 200 11743
+INFO 2024-04-02 19:58:10,054 "GET /subject/list/ HTTP/1.1" 200 11745
+INFO 2024-04-02 19:58:10,832 "GET /subject/list/ HTTP/1.1" 200 11745
+INFO 2024-04-02 19:58:11,720 "GET /student/assign HTTP/1.1" 200 10421
+INFO 2024-04-02 19:58:12,461 "GET /subject/list/ HTTP/1.1" 200 11745
+INFO 2024-04-02 19:58:18,205 "GET /subject/list/ HTTP/1.1" 200 11745
+INFO 2024-04-02 19:58:19,146 "GET /student/list HTTP/1.1" 200 10137
+INFO 2024-04-02 19:58:20,523 "GET /staff/list/ HTTP/1.1" 200 9583
+INFO 2024-04-02 19:58:22,430 "GET /student/list HTTP/1.1" 200 10137
+INFO 2024-04-02 19:58:26,198 "GET /subject/list/ HTTP/1.1" 200 11744
+INFO 2024-04-02 19:58:30,194 "GET /student/assign HTTP/1.1" 200 10420
+INFO 2024-04-02 19:58:50,524 "GET /student/assign HTTP/1.1" 200 9884
+INFO 2024-04-02 19:58:57,647 "GET /student/assign HTTP/1.1" 200 9883
+INFO 2024-04-02 19:58:58,779 "GET /subject/list/ HTTP/1.1" 200 11207
+INFO 2024-04-02 19:58:59,790 "GET /student/assign HTTP/1.1" 200 9883
+INFO 2024-04-02 19:59:00,327 "GET /subject/list/ HTTP/1.1" 200 11207
+INFO 2024-04-02 19:59:01,696 "GET /student/assign HTTP/1.1" 200 9883
+INFO 2024-04-02 19:59:08,396 "GET /subject/list/ HTTP/1.1" 200 11207
+INFO 2024-04-02 19:59:09,255 "GET /student/assign HTTP/1.1" 200 9883
+INFO 2024-04-02 19:59:10,074 "GET /subject/list/ HTTP/1.1" 200 11207
+INFO 2024-04-02 19:59:10,907 "GET /student/assign HTTP/1.1" 200 9883
+INFO 2024-04-02 19:59:17,217 "GET /student/assign HTTP/1.1" 200 9875
+INFO 2024-04-02 19:59:27,101 "GET /student/assign HTTP/1.1" 200 9875
+INFO 2024-04-02 19:59:28,109 "GET /subject/list/ HTTP/1.1" 200 11207
+INFO 2024-04-02 20:00:00,125 "GET /subject/list/ HTTP/1.1" 200 11197
+INFO 2024-04-02 20:00:09,309 "GET /subject/list/ HTTP/1.1" 200 11197
+INFO 2024-04-02 20:00:20,477 "GET /subject/list/ HTTP/1.1" 200 11197
+INFO 2024-04-02 20:00:21,873 "GET /student/assign HTTP/1.1" 200 9865
+INFO 2024-04-02 20:00:23,075 "GET /subject/list/ HTTP/1.1" 200 11197
+INFO 2024-04-02 20:00:26,500 "GET /student/assign HTTP/1.1" 200 9865
+INFO 2024-04-02 20:00:33,522 "GET /subject/list/ HTTP/1.1" 200 11197
+INFO 2024-04-02 20:00:34,563 "GET /student/assign HTTP/1.1" 200 9865
+INFO 2024-04-02 20:01:16,996 "GET /student/assign HTTP/1.1" 200 9829
+INFO 2024-04-02 20:01:17,973 "GET /student/1/ HTTP/1.1" 200 10221
+INFO 2024-04-02 20:01:19,963 "GET /student/1/ HTTP/1.1" 200 10221
+INFO 2024-04-02 20:01:21,748 "GET /student/1/ HTTP/1.1" 200 10221
+INFO 2024-04-02 20:01:26,396 "GET /student/2/ HTTP/1.1" 200 10207
+INFO 2024-04-02 20:01:28,868 "GET /student/2/ HTTP/1.1" 200 10207
+INFO 2024-04-02 20:02:18,415 "GET /student/assign HTTP/1.1" 200 9829
+INFO 2024-04-02 20:02:19,700 "GET /student/1/ HTTP/1.1" 200 10221
+INFO 2024-04-02 20:02:21,397 "GET /student/assign HTTP/1.1" 200 9755
+INFO 2024-04-02 20:03:21,676 "GET /student/assign HTTP/1.1" 200 9755
+INFO 2024-04-02 20:03:36,498 "GET /student/assign HTTP/1.1" 200 9757
+INFO 2024-04-02 20:03:37,316 "GET /student/1/ HTTP/1.1" 200 10221
+INFO 2024-04-02 20:03:41,648 "GET /student/assign HTTP/1.1" 200 9757
+INFO 2024-04-02 20:03:42,558 "GET /student/assign HTTP/1.1" 200 9757
+INFO 2024-04-02 20:03:42,946 "GET /student/assign HTTP/1.1" 200 9757
+INFO 2024-04-02 20:04:29,191 "GET /student/assign HTTP/1.1" 200 9663
+INFO 2024-04-02 20:04:39,423 "GET /student/assign HTTP/1.1" 200 9683
+INFO 2024-04-02 20:04:45,755 "GET /student/assign HTTP/1.1" 200 9683
+INFO 2024-04-02 20:04:47,758 "GET /student/assign HTTP/1.1" 200 9663
+INFO 2024-04-02 20:05:10,799 "GET /student/assign HTTP/1.1" 200 9707
+INFO 2024-04-02 20:05:31,905 "GET /student/assign HTTP/1.1" 200 9711
+INFO 2024-04-02 20:05:32,495 "GET /student/assign HTTP/1.1" 200 9711
+INFO 2024-04-02 20:05:32,908 "GET /student/assign HTTP/1.1" 200 9711
+INFO 2024-04-02 20:06:34,027 "GET /student/assign HTTP/1.1" 200 9711
+INFO 2024-04-02 20:06:39,536 "GET /student/assign HTTP/1.1" 200 9711
+INFO 2024-04-02 20:06:43,188 "GET /student/assign HTTP/1.1" 200 9711
+INFO 2024-04-02 20:06:46,047 "GET /student/assign HTTP/1.1" 200 9713
+INFO 2024-04-02 20:06:48,964 "GET /student/assign HTTP/1.1" 200 9713
+INFO 2024-04-02 20:06:54,301 "GET /student/assign HTTP/1.1" 200 9713
+INFO 2024-04-02 20:07:11,561 "GET /student/assign HTTP/1.1" 200 9705
+INFO 2024-04-02 20:07:19,541 "GET /student/assign HTTP/1.1" 200 9705
+INFO 2024-04-02 20:07:40,312 "GET /student/assign HTTP/1.1" 200 9701
