@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}Assign Project{% endblock title %}
+{% block title %}View Project{% endblock title %}
 {% block content %}
   <div class="table-responsive">
     <table id="studenttable" class="table table-bordered table-hover" data-page-length='100'>
@@ -9,8 +9,7 @@
           <th>S/N</th>
           <th>Full Name</th>
           <th>Registration Number</th>
-          <th>Class</th>
-          <th>Assign Project</th>
+          <th>Project</th>
         </tr>
       </thead>
       <tbody>
@@ -20,20 +19,11 @@
             <td>{{ forloop.counter}}</td>
             <td>{{ student.surname}} {{student.firstname }} {{student.other_name }}</td>
             <td>{{ student.registration_number}}</td>
-            <td>{{ student.current_class}}</td>
-            <td> 
-              <form method="post">
-                {% csrf_token %}
-                <input type="hidden" name="student_regno" value="{{ student.registration_number }}">
-                <div class="form-group">
-                  <select name="subject_name" class="form-control" required>
-                    {% for subject in subjects %}
-                      <option value="{{ subject.name }}">{{ subject.name }}</option>
-                    {% endfor %}
-                  </select>
-                </div>
-                <button type="submit" class="btn btn-primary">Assign</button>
-              </form>
+            <td>
+              {% for assignment in student.studentsubjectassignment_set.all %}
+                {{ assignment.subject.name }}
+                {% if not forloop.last %}, {% endif %}
+              {% endfor %}
             </td>
           </tr>
         {% endfor %}
