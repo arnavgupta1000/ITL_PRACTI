@@ -101,3 +101,12 @@ def create_user(sender, instance, created, **kwargs):
             user.is_staff = True
             user.save()
 
+# Signal receiver for deleting the associated user when a student is deleted
+@receiver(post_delete, sender=Student)
+def delete_user(sender, instance, **kwargs):
+    try:
+        # Delete the associated user
+        user = User.objects.get(username=instance.registration_number)
+        user.delete()
+    except User.DoesNotExist:
+        pass  # User does not exist, no need to delete
