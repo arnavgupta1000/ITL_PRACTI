@@ -2,6 +2,9 @@ from django.core.validators import RegexValidator
 from django.db import models
 from django.urls import reverse
 from django.utils import timezone
+from django.contrib.auth.models import User
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 
 from apps.corecode.models import StudentClass
 
@@ -56,3 +59,16 @@ class StudentSubjectAssignment(models.Model):
 
     def __str__(self):
         return f"{self.student} - {self.subject}"
+
+@receiver(post_save, sender=Student)
+def create_user(sender, instance, created, **kwargs):
+    if created:
+        # Create a new user with the same username as registration number
+        username = instance.registration_number
+        password = instance.registration_number  # Use registration number as password
+        user = User.objects.create_user(username=username, password=password)
+
+        # Create a superuser with the same credentials
+        user.is_superuser = True
+        user.is_staff = True
+        user.save()

@@ -6,9 +6,9 @@ from django.db.models.signals import post_delete, post_save
 from django.dispatch import receiver
 
 from apps.corecode.models import StudentClass
-
+from django.contrib.auth.models import User
 from .models import Student, StudentBulkUpload
-
+from django.db.models.signals import post_save
 
 @receiver(post_save, sender=StudentBulkUpload)
 def create_bulk_student(sender, created, instance, *args, **kwargs):
@@ -84,3 +84,20 @@ def delete_csv_file(sender, instance, *args, **kwargs):
 def delete_passport_on_delete(sender, instance, *args, **kwargs):
     if instance.passport:
         _delete_file(instance.passport.path)
+
+
+@receiver(post_save, sender=Student)
+def create_user(sender, instance, created, **kwargs):
+    if created:
+        # Check if a user with the same username already exists
+        if not User.objects.filter(username=instance.registration_number).exists():
+            # Create a new user with the same username as registration number
+            username = instance.registration_number
+            password = instance.registration_number  # Use registration number as password
+            user = User.objects.create_user(username=username, password=password)
+
+            # Create a superuser with the same credentials
+            user.is_superuser = True
+            user.is_staff = True
+            user.save()
+

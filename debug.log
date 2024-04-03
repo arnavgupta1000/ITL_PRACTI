@@ -1692,3 +1692,128 @@ INFO 2024-04-03 11:05:44,102 "GET /staff/list/ HTTP/1.1" 200 9036
 INFO 2024-04-03 11:05:45,742 "GET /student/list HTTP/1.1" 200 9651
 INFO 2024-04-03 11:05:46,845 "GET /student/upload/ HTTP/1.1" 200 8890
 INFO 2024-04-03 11:05:54,032 "GET /student/list HTTP/1.1" 200 9651
+INFO 2024-04-03 13:37:24,943 Watching for file changes with StatReloader
+INFO 2024-04-03 13:37:26,592 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 13:37:26,643 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,650 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,660 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,665 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,666 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,668 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,675 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,684 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,688 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,691 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,694 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,720 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2024-04-03 13:37:26,729 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2024-04-03 13:37:26,808 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:26,810 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 13:37:28,252 "GET /student/list HTTP/1.1" 200 9651
+INFO 2024-04-03 13:37:29,579 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-03 13:37:39,411 "POST /student/create/ HTTP/1.1" 200 12675
+ERROR 2024-04-03 13:37:45,024 Internal Server Error: /student/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: auth_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 153, in post
+    return self.form_valid(form)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/messages/views.py", line 12, in form_valid
+    response = super().form_valid(form)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 135, in form_valid
+    self.object = form.save()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/forms/models.py", line 542, in save
+    self.instance.save()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/signals.py", line 94, in create_user
+    user = User.objects.create_user(username=username, password=password)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/models.py", line 161, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/models.py", line 155, in _create_user
+    user.save(using=self._db)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: auth_user.username
+ERROR 2024-04-03 13:37:45,032 "POST /student/create/ HTTP/1.1" 500 221650
+INFO 2024-04-03 13:41:22,274 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/signals.py changed, reloading.
+INFO 2024-04-03 13:41:23,352 Watching for file changes with StatReloader
+INFO 2024-04-03 13:41:25,918 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/signals.py changed, reloading.
+INFO 2024-04-03 13:41:26,627 Watching for file changes with StatReloader
+INFO 2024-04-03 13:41:32,606 "POST /student/create/ HTTP/1.1" 200 12675
+INFO 2024-04-03 13:41:35,395 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-03 13:41:35,857 "GET /student/list HTTP/1.1" 200 9873
+INFO 2024-04-03 13:41:42,029 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-03 13:41:54,890 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 13:41:54,915 "GET /student/7/ HTTP/1.1" 200 10128
+INFO 2024-04-03 13:41:54,949 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2024-04-03 13:42:03,048 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 13:42:03,054 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 13:42:03,064 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 13:42:03,090 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2024-04-03 13:42:03,091 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2024-04-03 13:42:10,201 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 13:42:10,216 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 13:42:12,065 "GET /student/list HTTP/1.1" 200 10088
+INFO 2024-04-03 13:42:40,148 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 13:42:40,153 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 13:42:40,164 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 13:42:45,773 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 13:42:45,788 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 13:42:49,398 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 13:42:49,403 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 13:42:49,411 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 13:42:52,364 "POST /accounts/login/ HTTP/1.1" 200 4106
