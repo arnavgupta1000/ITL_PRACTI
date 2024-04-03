@@ -120,9 +120,16 @@ class StudentAssignView(LoginRequiredMixin, ListView):
         # Get the student and subject objects
         student = Student.objects.get(registration_number=student_regno)
         subject = Subject.objects.get(name=subject_name)
+        existing_assignment = StudentSubjectAssignment.objects.filter(student=student).first()
 
+        if existing_assignment:
+            # If an assignment exists, update the subject
+            existing_assignment.subject = subject
+            existing_assignment.save()
         # Create a new assignment
-        assignment = StudentSubjectAssignment.objects.create(student=student, subject=subject)
+        else:
+            
+            assignment = StudentSubjectAssignment.objects.create(student=student, subject=subject)
 
         return redirect("student-assign")
     def get_context_data(self, **kwargs):

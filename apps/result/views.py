@@ -1,114 +1,29 @@
-from django.contrib import messages
-from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views.generic import ListView
 from django.shortcuts import redirect, render
-from django.views.generic import DetailView, ListView, View
-
+from .models import StudentAssignment
 from apps.students.models import Student
+from apps.corecode.models import Subject
 
-from .forms import CreateResults, EditResults
-from .models import Result
+class GradeAssignView(LoginRequiredMixin, ListView):
+    model = Student
+    template_name = "result/create_result.html"
+    context_object_name = "students"
 
+    def post(self, request, *args, **kwargs):
+        for student in request.POST.getlist("students"):
+            student_obj = Student.objects.get(id=student)
+            grade = request.POST.get(f"grade_{student}")
 
-@login_required
-def create_result(request):
-    students = Student.objects.all()
-    if request.method == "POST":
+            for assignment in student_obj.studentsubjectassignment_set.all():
+                assignment.grade = grade
+                assignment.save()
+            else:
+                StudentAssignment.objects.create(student=student_obj, subject=assignment.subject, grade=grade)
 
-        # after visiting the second page
-        if "finish" in request.POST:
-            form = CreateResults(request.POST)
-            if form.is_valid():
-                subjects = form.cleaned_data["subjects"]
-                session = form.cleaned_data["session"]
-                term = form.cleaned_data["term"]
-                students = request.POST["students"]
-                results = []
-                for student in students.split(","):
-                    stu = Student.objects.get(pk=student)
-                    if stu.current_class:
-                        for subject in subjects:
-                            check = Result.objects.filter(
-                                session=session,
-                                term=term,
-                                current_class=stu.current_class,
-                                subject=subject,
-                                student=stu,
-                            ).first()
-                            if not check:
-                                results.append(
-                                    Result(
-                                        session=session,
-                                        term=term,
-                                        current_class=stu.current_class,
-                                        subject=subject,
-                                        student=stu,
-                                    )
-                                )
+        return redirect("view-result")
 
-                Result.objects.bulk_create(results)
-                return redirect("edit-results")
-
-        # after choosing students
-        id_list = request.POST.getlist("students")
-        if id_list:
-            form = CreateResults(
-                initial={
-                    "session": request.current_session,
-                    "term": request.current_term,
-                }
-            )
-            studentlist = ",".join(id_list)
-            return render(
-                request,
-                "result/create_result_page2.html",
-                {"students": studentlist, "form": form, "count": len(id_list)},
-            )
-        else:
-            messages.warning(request, "You didnt select any student.")
-    return render(request, "result/create_result.html", {"students": students})
-
-
-@login_required
-def edit_results(request):
-    if request.method == "POST":
-        form = EditResults(request.POST)
-        if form.is_valid():
-            form.save()
-            messages.success(request, "Results successfully updated")
-            return redirect("edit-results")
-    else:
-        results = Result.objects.filter(
-            session=request.current_session, term=request.current_term
-        )
-        form = EditResults(queryset=results)
-    return render(request, "result/edit_results.html", {"formset": form})
-
-
-class ResultListView(LoginRequiredMixin, View):
-    def get(self, request, *args, **kwargs):
-        results = Result.objects.filter(
-            session=request.current_session, term=request.current_term
-        )
-        bulk = {}
-
-        for result in results:
-            test_total = 0
-            exam_total = 0
-            subjects = []
-            for subject in results:
-                if subject.student == result.student:
-                    subjects.append(subject)
-                    test_total += subject.test_score
-                    exam_total += subject.exam_score
-
-            bulk[result.student.id] = {
-                "student": result.student,
-                "subjects": subjects,
-                "test_total": test_total,
-                "exam_total": exam_total,
-                "total_total": test_total + exam_total,
-            }
-
-        context = {"results": bulk}
-        return render(request, "result/all_results.html", context)
+class ViewGradesView(LoginRequiredMixin, ListView):
+    model = StudentAssignment
+    template_name = "result/view_result.html"
+    context_object_name = "assignments"

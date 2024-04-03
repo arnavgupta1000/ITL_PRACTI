@@ -2974,3 +2974,2175 @@ INFO 2024-04-03 16:50:49,128 "GET /result/create/ HTTP/1.1" 200 10664
 INFO 2024-04-03 16:51:41,006 "GET /accounts/logout/ HTTP/1.1" 302 0
 INFO 2024-04-03 16:51:41,009 "GET / HTTP/1.1" 302 0
 INFO 2024-04-03 16:51:41,018 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 17:40:26,039 Watching for file changes with StatReloader
+INFO 2024-04-03 17:40:27,300 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 17:40:27,328 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 17:40:27,387 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:27,389 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:27,405 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:27,410 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:27,410 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:27,434 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:27,443 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:27,449 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:27,452 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:27,456 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:27,457 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:27,463 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2024-04-03 17:40:27,474 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2024-04-03 17:40:27,522 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2024-04-03 17:40:31,743 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 17:40:31,765 "GET / HTTP/1.1" 200 8704
+INFO 2024-04-03 17:40:31,786 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:31,787 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:31,859 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-04-03 17:40:34,454 "GET /student/assign HTTP/1.1" 200 11035
+INFO 2024-04-03 17:40:37,084 "GET /student/list HTTP/1.1" 200 9735
+INFO 2024-04-03 17:40:38,611 "GET /student/project HTTP/1.1" 200 9688
+INFO 2024-04-03 17:40:41,366 "GET /student/list HTTP/1.1" 200 9735
+INFO 2024-04-03 17:40:42,135 "GET /student/10/ HTTP/1.1" 200 10523
+INFO 2024-04-03 17:40:42,157 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2024-04-03 17:40:43,470 "GET /student/delete/10/ HTTP/1.1" 200 9013
+INFO 2024-04-03 17:40:44,741 "POST /student/delete/10/ HTTP/1.1" 302 0
+INFO 2024-04-03 17:40:44,759 "GET /student/list HTTP/1.1" 200 9512
+INFO 2024-04-03 17:40:45,512 "GET /staff/list/ HTTP/1.1" 200 9561
+INFO 2024-04-03 17:40:45,977 "GET /student/list HTTP/1.1" 200 9512
+INFO 2024-04-03 17:40:46,769 "GET /student/11/ HTTP/1.1" 200 10511
+INFO 2024-04-03 17:40:47,774 "GET /student/delete/11/ HTTP/1.1" 200 9007
+INFO 2024-04-03 17:40:48,647 "POST /student/delete/11/ HTTP/1.1" 302 0
+INFO 2024-04-03 17:40:48,664 "GET /student/list HTTP/1.1" 200 9295
+INFO 2024-04-03 17:41:14,067 "GET /student/list HTTP/1.1" 200 9295
+INFO 2024-04-03 17:41:16,278 "GET /subject/list/ HTTP/1.1" 200 11944
+INFO 2024-04-03 17:41:19,760 "GET /subject/26/delete/ HTTP/1.1" 200 9395
+INFO 2024-04-03 17:41:21,026 "POST /subject/26/delete/ HTTP/1.1" 302 0
+INFO 2024-04-03 17:41:21,047 "GET /subject/list/ HTTP/1.1" 200 11503
+INFO 2024-04-03 17:41:25,221 "GET /subject/25/delete/ HTTP/1.1" 200 9397
+INFO 2024-04-03 17:41:26,077 "POST /subject/25/delete/ HTTP/1.1" 302 0
+INFO 2024-04-03 17:41:26,098 "GET /subject/list/ HTTP/1.1" 200 11061
+INFO 2024-04-03 17:41:27,018 "GET /subject/28/delete/ HTTP/1.1" 200 9397
+INFO 2024-04-03 17:41:27,907 "POST /subject/28/delete/ HTTP/1.1" 302 0
+INFO 2024-04-03 17:41:27,925 "GET /subject/list/ HTTP/1.1" 200 10615
+INFO 2024-04-03 17:41:28,750 "GET /student/assign HTTP/1.1" 200 9093
+INFO 2024-04-03 17:41:29,263 "GET /student/project HTTP/1.1" 200 9059
+INFO 2024-04-03 17:42:11,659 Watching for file changes with StatReloader
+INFO 2024-04-03 17:42:13,799 "GET / HTTP/1.1" 200 8704
+INFO 2024-04-03 17:42:15,456 "GET /student/list HTTP/1.1" 200 9295
+INFO 2024-04-03 17:42:16,608 "GET /student/create/ HTTP/1.1" 200 13026
+INFO 2024-04-03 17:42:24,465 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 17:42:24,488 "GET /student/12/ HTTP/1.1" 200 10665
+INFO 2024-04-03 17:42:25,464 "GET /subject/list/ HTTP/1.1" 200 10615
+INFO 2024-04-03 17:42:26,713 "GET /staff/list/ HTTP/1.1" 200 9561
+INFO 2024-04-03 17:42:28,126 "GET /subject/list/ HTTP/1.1" 200 10615
+INFO 2024-04-03 17:42:31,611 "POST /subject/create/ HTTP/1.1" 200 9836
+INFO 2024-04-03 17:42:34,508 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 17:42:34,528 "GET /subject/list/ HTTP/1.1" 200 11202
+INFO 2024-04-03 17:42:35,638 "GET /student/assign HTTP/1.1" 200 9895
+INFO 2024-04-03 17:42:38,049 "GET /subject/list/ HTTP/1.1" 200 11057
+INFO 2024-04-03 17:42:41,572 "POST /subject/create/ HTTP/1.1" 200 9836
+INFO 2024-04-03 17:42:46,171 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 17:42:46,192 "GET /subject/list/ HTTP/1.1" 200 11640
+INFO 2024-04-03 17:42:46,919 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:42:48,917 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-03 17:42:48,935 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:42:49,965 "GET /student/project HTTP/1.1" 200 9286
+INFO 2024-04-03 17:42:51,006 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:42:55,073 "GET /student/project HTTP/1.1" 200 9286
+INFO 2024-04-03 17:42:56,327 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:42:57,594 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-03 17:42:57,619 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:42:58,867 "GET /student/project HTTP/1.1" 200 9286
+INFO 2024-04-03 17:43:31,024 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:43:33,568 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-03 17:43:33,595 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:43:34,855 "GET /student/project HTTP/1.1" 200 9286
+INFO 2024-04-03 17:43:35,886 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:43:37,964 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-03 17:43:37,982 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:43:38,925 "GET /student/project HTTP/1.1" 200 9286
+INFO 2024-04-03 17:43:40,465 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:43:42,532 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-03 17:43:42,555 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:43:43,587 "GET /student/project HTTP/1.1" 200 9286
+INFO 2024-04-03 17:43:58,501 "GET /result/create/ HTTP/1.1" 200 10098
+INFO 2024-04-03 17:44:08,412 "GET /student/project HTTP/1.1" 200 9286
+INFO 2024-04-03 17:44:10,160 "GET /result/create/ HTTP/1.1" 200 10098
+INFO 2024-04-03 17:46:26,743 "GET /result/create/ HTTP/1.1" 200 10098
+INFO 2024-04-03 17:46:26,779 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,788 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,789 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,790 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,792 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,797 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,797 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,797 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,801 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,807 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,811 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,812 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:46:26,813 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:48:45,015 "GET /result/create/ HTTP/1.1" 200 10166
+INFO 2024-04-03 17:48:52,293 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:48:55,754 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-03 17:48:55,777 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 17:48:57,272 "GET /student/project HTTP/1.1" 200 9286
+INFO 2024-04-03 17:49:00,766 "GET /result/create/ HTTP/1.1" 200 10166
+INFO 2024-04-03 17:50:30,195 "GET /student/project HTTP/1.1" 200 9286
+ERROR 2024-04-03 17:50:32,349 Internal Server Error: /result/view-result/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 91, in get
+    session=request.current_session, term=request.current_term
+AttributeError: 'WSGIRequest' object has no attribute 'current_session'
+ERROR 2024-04-03 17:50:32,351 "GET /result/view-result/ HTTP/1.1" 500 78618
+ERROR 2024-04-03 17:50:50,972 Internal Server Error: /result/view-result/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 91, in get
+    session=request.current_session, term=request.current_term
+AttributeError: 'WSGIRequest' object has no attribute 'current_session'
+ERROR 2024-04-03 17:50:50,973 "GET /result/view-result/ HTTP/1.1" 500 78618
+INFO 2024-04-03 17:51:47,776 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 17:51:48,977 Watching for file changes with StatReloader
+ERROR 2024-04-03 17:51:50,060 Internal Server Error: /result/view-result/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 84, in get
+    session=request.current_session, term=request.current_term
+AttributeError: 'WSGIRequest' object has no attribute 'current_session'
+ERROR 2024-04-03 17:51:50,062 "GET /result/view-result/ HTTP/1.1" 500 78755
+INFO 2024-04-03 17:52:13,677 "GET /result/create/ HTTP/1.1" 200 10166
+INFO 2024-04-03 17:52:13,722 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,728 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,729 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,736 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,759 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,760 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,765 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,765 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,767 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,774 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,775 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,776 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:13,779 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:52:15,151 "GET /result/create/?studenttable_length=100&grade=A%2B HTTP/1.1" 200 10166
+ERROR 2024-04-03 17:52:17,076 Internal Server Error: /result/view-result/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 84, in get
+    session=request.current_session, term=request.current_term
+AttributeError: 'WSGIRequest' object has no attribute 'current_session'
+ERROR 2024-04-03 17:52:17,077 "GET /result/view-result/ HTTP/1.1" 500 78656
+INFO 2024-04-03 17:52:50,985 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 17:52:52,047 Watching for file changes with StatReloader
+INFO 2024-04-03 17:53:02,551 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 17:53:03,140 Watching for file changes with StatReloader
+INFO 2024-04-03 17:53:15,655 "GET /result/create/ HTTP/1.1" 200 10166
+ERROR 2024-04-03 17:53:18,740 Internal Server Error: /result/view-result/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 84, in get
+    session=request.current_session, term=request.current_term
+AttributeError: 'WSGIRequest' object has no attribute 'current_session'
+ERROR 2024-04-03 17:53:18,742 "GET /result/view-result/ HTTP/1.1" 500 78617
+INFO 2024-04-03 17:53:31,447 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/urls.py changed, reloading.
+INFO 2024-04-03 17:53:32,464 Watching for file changes with StatReloader
+INFO 2024-04-03 17:53:34,684 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/urls.py changed, reloading.
+INFO 2024-04-03 17:53:35,316 Watching for file changes with StatReloader
+INFO 2024-04-03 17:53:42,835 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/urls.py changed, reloading.
+INFO 2024-04-03 17:53:43,449 Watching for file changes with StatReloader
+INFO 2024-04-03 17:54:10,450 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 17:54:11,497 Watching for file changes with StatReloader
+INFO 2024-04-03 17:54:16,799 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 17:54:17,401 Watching for file changes with StatReloader
+INFO 2024-04-03 17:54:26,739 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/urls.py changed, reloading.
+INFO 2024-04-03 17:54:27,389 Watching for file changes with StatReloader
+ERROR 2024-04-03 17:54:29,595 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view-result' not found. 'view-result' is not a valid view function or pattern name.
+ERROR 2024-04-03 17:54:29,601 "GET / HTTP/1.1" 500 142158
+ERROR 2024-04-03 17:54:37,457 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 62, in create_result
+    return render(request, "result/create_result.html", {"students": students})
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view-result' not found. 'view-result' is not a valid view function or pattern name.
+ERROR 2024-04-03 17:54:37,461 "GET /result/create/ HTTP/1.1" 500 152287
+ERROR 2024-04-03 17:54:41,230 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view-result' not found. 'view-result' is not a valid view function or pattern name.
+ERROR 2024-04-03 17:54:41,232 "GET / HTTP/1.1" 500 142432
+ERROR 2024-04-03 17:54:41,425 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view-result' not found. 'view-result' is not a valid view function or pattern name.
+ERROR 2024-04-03 17:54:41,426 "GET / HTTP/1.1" 500 142158
+INFO 2024-04-03 17:54:59,662 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 17:55:00,713 Watching for file changes with StatReloader
+INFO 2024-04-03 17:55:06,212 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/urls.py changed, reloading.
+INFO 2024-04-03 17:55:07,277 Watching for file changes with StatReloader
+INFO 2024-04-03 17:55:08,801 "GET / HTTP/1.1" 200 8704
+INFO 2024-04-03 17:55:09,052 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 17:55:09,053 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+ERROR 2024-04-03 17:55:10,657 Internal Server Error: /result/view-result/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 84, in get
+    session=request.current_session, term=request.current_term
+AttributeError: 'WSGIRequest' object has no attribute 'current_session'
+ERROR 2024-04-03 17:55:10,659 "GET /result/view-result/ HTTP/1.1" 500 78603
+INFO 2024-04-03 17:55:12,715 "GET /result/create/ HTTP/1.1" 200 10166
+INFO 2024-04-03 17:58:17,714 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/models.py changed, reloading.
+INFO 2024-04-03 17:58:18,729 Watching for file changes with StatReloader
+INFO 2024-04-03 17:58:25,017 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/models.py changed, reloading.
+INFO 2024-04-03 17:58:25,622 Watching for file changes with StatReloader
+INFO 2024-04-03 17:59:57,968 Watching for file changes with StatReloader
+INFO 2024-04-03 17:59:59,895 "GET / HTTP/1.1" 200 8704
+INFO 2024-04-03 17:59:59,946 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,953 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,956 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,957 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,961 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,970 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,971 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,982 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,985 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,992 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,993 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,996 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 17:59:59,997 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:00:01,951 "GET /result/create/ HTTP/1.1" 200 10166
+INFO 2024-04-03 18:00:03,538 "GET /result/create/?studenttable_length=100&grade=A%2B HTTP/1.1" 200 10166
+ERROR 2024-04-03 18:00:04,942 Internal Server Error: /result/view-result/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 84, in get
+    session=request.current_session, term=request.current_term
+AttributeError: 'WSGIRequest' object has no attribute 'current_session'
+ERROR 2024-04-03 18:00:04,943 "GET /result/view-result/ HTTP/1.1" 500 78656
+INFO 2024-04-03 18:03:35,115 Watching for file changes with StatReloader
+INFO 2024-04-03 18:03:36,390 "GET / HTTP/1.1" 200 8704
+INFO 2024-04-03 18:03:36,415 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,433 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,434 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,450 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,451 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,455 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,458 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,460 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,472 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,476 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,483 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,492 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,493 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,513 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:36,515 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 18:03:37,906 "GET /result/create/ HTTP/1.1" 200 10316
+INFO 2024-04-03 18:03:42,916 "GET /result/create/?studenttable_length=100&grade=A HTTP/1.1" 200 10316
+INFO 2024-04-03 18:03:46,009 "GET /result/create/?studenttable_length=100&grade=A%2B HTTP/1.1" 200 10316
+INFO 2024-04-03 18:05:04,748 Watching for file changes with StatReloader
+INFO 2024-04-03 18:05:07,841 "GET /result/create/?studenttable_length=100&grade=A%2B HTTP/1.1" 200 10316
+INFO 2024-04-03 18:06:07,486 "GET /result/create/?studenttable_length=100&grade=A%2B HTTP/1.1" 200 10265
+INFO 2024-04-03 18:06:11,195 "POST /result/create/?studenttable_length=100&grade=A%2B HTTP/1.1" 200 10115
+INFO 2024-04-03 18:06:15,508 "POST /result/create/?studenttable_length=100&grade=A%2B HTTP/1.1" 200 10115
+INFO 2024-04-03 18:06:18,543 "POST /result/create/?studenttable_length=100&grade=A%2B HTTP/1.1" 200 10115
+ERROR 2024-04-03 18:06:19,816 Internal Server Error: /result/view-result/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 54, in get
+    session=request.current_session, term=request.current_term
+AttributeError: 'WSGIRequest' object has no attribute 'current_session'
+ERROR 2024-04-03 18:06:19,818 "GET /result/view-result/ HTTP/1.1" 500 78656
+INFO 2024-04-03 18:08:05,613 Watching for file changes with StatReloader
+INFO 2024-04-03 18:08:09,389 "GET / HTTP/1.1" 200 8704
+INFO 2024-04-03 18:08:11,212 "GET /result/create/ HTTP/1.1" 200 10265
+INFO 2024-04-03 18:08:13,744 "POST /result/create/ HTTP/1.1" 200 10115
+INFO 2024-04-03 18:08:15,429 "POST /result/create/ HTTP/1.1" 200 10115
+INFO 2024-04-03 18:09:22,826 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 18:09:23,867 Watching for file changes with StatReloader
+INFO 2024-04-03 18:09:29,862 "POST /result/create/ HTTP/1.1" 200 10115
+INFO 2024-04-03 18:10:47,410 Watching for file changes with StatReloader
+INFO 2024-04-03 18:10:49,902 "GET /subject/list/ HTTP/1.1" 200 11495
+INFO 2024-04-03 18:10:49,936 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,939 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,944 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,952 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,953 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,968 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,969 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,971 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,974 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,977 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,978 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,981 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:49,982 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:50,115 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:50,115 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 18:10:50,762 "GET /subject/list/ HTTP/1.1" 200 11495
+INFO 2024-04-03 18:10:53,905 "GET /student/assign HTTP/1.1" 200 9969
+INFO 2024-04-03 18:12:09,867 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/models.py changed, reloading.
+INFO 2024-04-03 18:12:10,824 Watching for file changes with StatReloader
+INFO 2024-04-03 18:18:20,203 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/models.py changed, reloading.
+INFO 2024-04-03 18:18:21,256 Watching for file changes with StatReloader
+INFO 2024-04-03 18:20:10,648 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 18:20:11,524 Watching for file changes with StatReloader
+INFO 2024-04-03 18:21:02,923 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 18:21:03,778 Watching for file changes with StatReloader
+INFO 2024-04-03 18:21:30,482 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/urls.py changed, reloading.
+INFO 2024-04-03 18:21:31,633 Watching for file changes with StatReloader
+INFO 2024-04-03 18:22:09,578 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/urls.py changed, reloading.
+INFO 2024-04-03 18:22:10,572 Watching for file changes with StatReloader
+INFO 2024-04-03 18:22:27,258 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/urls.py changed, reloading.
+INFO 2024-04-03 18:22:27,858 Watching for file changes with StatReloader
+ERROR 2024-04-03 18:22:30,285 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view-result' not found. 'view-result' is not a valid view function or pattern name.
+ERROR 2024-04-03 18:22:30,293 "GET / HTTP/1.1" 500 142158
+INFO 2024-04-03 18:23:35,153 "GET / HTTP/1.1" 200 8448
+INFO 2024-04-03 18:23:35,177 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,192 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,192 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,193 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,195 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,205 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,206 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,207 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,212 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,218 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,222 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,224 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,225 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,236 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 18:23:35,237 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+ERROR 2024-04-03 18:23:36,593 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2024-04-03 18:23:36,594 "GET /result/create/ HTTP/1.1" 500 60607
+INFO 2024-04-03 18:24:41,672 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/urls.py changed, reloading.
+INFO 2024-04-03 18:24:42,725 Watching for file changes with StatReloader
+INFO 2024-04-03 18:25:22,889 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/urls.py changed, reloading.
+INFO 2024-04-03 18:25:23,780 Watching for file changes with StatReloader
+INFO 2024-04-03 18:25:26,827 "GET /result/create/ HTTP/1.1" 200 9260
+INFO 2024-04-03 18:25:30,407 "GET /result/create/ HTTP/1.1" 200 9260
+INFO 2024-04-03 18:25:33,265 "GET /result/create/ HTTP/1.1" 200 9260
+INFO 2024-04-03 18:25:34,781 "GET /student/project HTTP/1.1" 200 9030
+INFO 2024-04-03 18:25:37,092 "GET /student/assign HTTP/1.1" 200 9713
+INFO 2024-04-03 18:25:39,971 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-03 18:25:39,990 "GET /student/assign HTTP/1.1" 200 9713
+INFO 2024-04-03 18:25:41,188 "GET /student/project HTTP/1.1" 200 9030
+INFO 2024-04-03 18:25:43,358 "GET /result/create/ HTTP/1.1" 200 9260
+INFO 2024-04-03 18:26:39,963 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 18:26:40,955 Watching for file changes with StatReloader
+INFO 2024-04-03 18:26:41,519 "GET /result/create/ HTTP/1.1" 200 9859
+ERROR 2024-04-03 18:26:46,466 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 19, in post
+    student = Student.objects.get(registration_number=student_regno)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+apps.students.models.Student.DoesNotExist: Student matching query does not exist.
+ERROR 2024-04-03 18:26:46,470 "POST /result/create/ HTTP/1.1" 500 88801
+INFO 2024-04-03 18:33:37,254 Watching for file changes with StatReloader
+INFO 2024-04-03 18:33:43,539 "GET / HTTP/1.1" 200 8448
+INFO 2024-04-03 18:33:43,598 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,600 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,623 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,628 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,630 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,633 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,646 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,647 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,647 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,658 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,659 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,659 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,661 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,675 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:43,675 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 18:33:45,362 "GET /result/create/ HTTP/1.1" 200 9859
+ERROR 2024-04-03 18:33:49,496 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: result_studentassignment
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 22, in post
+    StudentAssignment.objects.create(student=student_obj, subject=assignment.subject, grade=grade)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: result_studentassignment
+ERROR 2024-04-03 18:33:49,502 "POST /result/create/ HTTP/1.1" 500 168908
+INFO 2024-04-03 18:34:37,682 Watching for file changes with StatReloader
+ERROR 2024-04-03 18:34:44,910 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 24, in post
+    return redirect("view-grades")
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view-grades' not found. 'view-grades' is not a valid view function or pattern name.
+ERROR 2024-04-03 18:34:44,913 "POST /result/create/ HTTP/1.1" 500 98761
+ERROR 2024-04-03 18:35:00,299 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 24, in post
+    return redirect("view-grades")
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view-grades' not found. 'view-grades' is not a valid view function or pattern name.
+ERROR 2024-04-03 18:35:00,300 "POST /result/create/ HTTP/1.1" 500 98761
+INFO 2024-04-03 18:36:59,341 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 18:37:00,399 Watching for file changes with StatReloader
+INFO 2024-04-03 18:37:02,667 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:37:02,703 "GET /result/view/ HTTP/1.1" 200 8903
+INFO 2024-04-03 18:37:07,660 "GET /result/create/ HTTP/1.1" 200 9859
+INFO 2024-04-03 18:37:50,967 "GET /result/create/ HTTP/1.1" 200 10108
+INFO 2024-04-03 18:37:52,153 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:40:41,175 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 18:40:42,198 Watching for file changes with StatReloader
+INFO 2024-04-03 18:40:57,263 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:40:58,514 "GET /result/create/ HTTP/1.1" 200 10223
+ERROR 2024-04-03 18:41:03,438 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 20, in post
+    assignment = StudentSubjectAssignment.objects.filter(student=student, subject_id=subject_id).first()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1319, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ''.
+ERROR 2024-04-03 18:41:03,443 "POST /result/create/ HTTP/1.1" 500 140148
+INFO 2024-04-03 18:41:33,075 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 18:41:34,049 Watching for file changes with StatReloader
+ERROR 2024-04-03 18:41:37,063 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 20, in post
+    assignment = StudentSubjectAssignment.objects.filter(student=student, subject_id=subject_id).first()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1319, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ''.
+ERROR 2024-04-03 18:41:37,068 "POST /result/create/ HTTP/1.1" 500 140148
+INFO 2024-04-03 18:41:50,978 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 18:41:51,935 Watching for file changes with StatReloader
+INFO 2024-04-03 18:41:54,399 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 18:41:55,075 Watching for file changes with StatReloader
+INFO 2024-04-03 18:41:59,919 "GET /result/create/ HTTP/1.1" 200 10223
+ERROR 2024-04-03 18:42:01,732 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 26, in post
+    assignment = StudentSubjectAssignment.objects.filter(student=student, subject_id=subject_id).first()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1319, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ''.
+ERROR 2024-04-03 18:42:01,739 "POST /result/create/ HTTP/1.1" 500 140261
+INFO 2024-04-03 18:43:10,426 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 18:43:11,409 Watching for file changes with StatReloader
+INFO 2024-04-03 18:43:30,192 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 18:43:31,216 Watching for file changes with StatReloader
+INFO 2024-04-03 18:43:36,541 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:43:36,576 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:43:38,555 "GET /result/create/ HTTP/1.1" 200 10223
+INFO 2024-04-03 18:43:40,561 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:43:40,584 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:43:40,616 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,622 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,636 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,643 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,644 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,648 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,648 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,652 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,653 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,656 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,661 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,663 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:40,666 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:43,849 "GET /student/list HTTP/1.1" 200 9509
+INFO 2024-04-03 18:43:44,855 "GET /student/create/ HTTP/1.1" 200 13019
+INFO 2024-04-03 18:43:51,186 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:43:51,209 "GET /student/13/ HTTP/1.1" 200 10650
+INFO 2024-04-03 18:43:51,244 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2024-04-03 18:43:52,529 "GET /subject/list/ HTTP/1.1" 200 11488
+INFO 2024-04-03 18:43:53,076 "GET /student/assign HTTP/1.1" 200 10834
+INFO 2024-04-03 18:43:56,283 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-03 18:43:56,304 "GET /student/assign HTTP/1.1" 200 10834
+INFO 2024-04-03 18:43:57,973 "GET /student/project HTTP/1.1" 200 9502
+INFO 2024-04-03 18:44:00,194 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:44:06,422 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:44:06,451 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:44:08,322 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:44:08,345 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:44:11,959 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:44:13,296 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:44:14,020 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:44:15,083 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:44:17,449 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:44:17,472 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:44:18,732 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:44:22,224 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:44:22,246 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:44:23,824 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:44:26,905 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:44:26,929 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:48:24,353 Watching for file changes with StatReloader
+INFO 2024-04-03 18:48:28,880 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:48:28,950 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 18:48:28,951 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 18:48:30,348 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:48:34,349 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:48:34,373 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:49:41,958 Watching for file changes with StatReloader
+INFO 2024-04-03 18:49:44,409 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:49:45,706 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:49:48,305 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:49:48,327 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:49:50,102 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:49:50,128 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:53:51,813 Watching for file changes with StatReloader
+INFO 2024-04-03 18:53:55,126 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:54:00,366 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:54:00,395 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:57:54,954 Watching for file changes with StatReloader
+INFO 2024-04-03 18:57:59,463 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 18:57:59,507 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,525 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,563 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,570 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,574 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,579 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,580 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,580 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,581 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,589 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,589 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,591 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:57:59,595 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 18:58:00,649 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 18:58:04,434 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 18:58:04,464 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 19:02:08,011 Watching for file changes with StatReloader
+INFO 2024-04-03 19:02:08,939 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 19:02:10,791 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 19:02:12,883 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:02:12,910 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 19:02:26,004 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 19:02:26,651 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 19:03:00,723 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:03:01,745 Watching for file changes with StatReloader
+INFO 2024-04-03 19:03:05,462 "GET /result/create/ HTTP/1.1" 200 11697
+INFO 2024-04-03 19:03:14,760 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:03:14,790 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 19:03:21,664 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:03:22,593 Watching for file changes with StatReloader
+INFO 2024-04-03 19:03:22,988 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 19:03:24,361 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 19:03:25,621 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 19:03:29,205 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:03:29,230 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 19:03:33,832 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:03:33,853 "GET /result/view/ HTTP/1.1" 200 9152
+INFO 2024-04-03 19:05:13,783 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/models.py changed, reloading.
+INFO 2024-04-03 19:05:14,900 Watching for file changes with StatReloader
+INFO 2024-04-03 19:07:58,654 Watching for file changes with StatReloader
+INFO 2024-04-03 19:08:02,921 "GET /result/view/ HTTP/1.1" 200 8828
+INFO 2024-04-03 19:08:03,000 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 19:08:03,001 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 19:08:04,277 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 19:08:06,561 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:08:06,579 "GET /result/view/ HTTP/1.1" 200 8828
+INFO 2024-04-03 19:08:08,523 "GET /subject/list/ HTTP/1.1" 200 11488
+INFO 2024-04-03 19:08:10,213 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 19:08:11,998 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:08:12,018 "GET /result/view/ HTTP/1.1" 200 8828
+INFO 2024-04-03 19:08:13,348 "GET /result/view/ HTTP/1.1" 200 8828
+INFO 2024-04-03 19:08:14,355 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 19:08:47,357 "GET /result/view/ HTTP/1.1" 200 8828
+INFO 2024-04-03 19:09:25,159 "GET /result/create/ HTTP/1.1" 200 11043
+INFO 2024-04-03 19:12:36,601 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:12:37,754 Watching for file changes with StatReloader
+INFO 2024-04-03 19:12:39,419 "GET / HTTP/1.1" 200 8697
+INFO 2024-04-03 19:12:39,493 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,500 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,502 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,504 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,506 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,509 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,511 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,512 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,515 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,515 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,517 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,517 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:39,523 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:12:40,768 "GET /result/create/ HTTP/1.1" 200 11051
+ERROR 2024-04-03 19:12:42,586 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 38, in post
+    assignment, created = StudentAssignment.objects.get_or_create(student=student, subject_id=subject_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1319, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'None'.
+ERROR 2024-04-03 19:12:42,591 "POST /result/create/ HTTP/1.1" 500 148623
+INFO 2024-04-03 19:13:17,406 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:13:18,480 Watching for file changes with StatReloader
+INFO 2024-04-03 19:13:30,576 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:13:30,628 "GET /result/create/ HTTP/1.1" 200 10868
+ERROR 2024-04-03 19:13:33,459 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 52, in post
+    assignment, created = StudentAssignment.objects.get_or_create(student=student, subject_id=subject_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1319, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'None'.
+ERROR 2024-04-03 19:13:33,464 "POST /result/create/ HTTP/1.1" 500 148450
+INFO 2024-04-03 19:15:01,461 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:15:02,546 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:16:04,499 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 52, in post
+    assignment, created = StudentAssignment.objects.get_or_create(student=student, subject_id=subject_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1319, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'None'.
+ERROR 2024-04-03 19:16:04,505 "POST /result/create/ HTTP/1.1" 500 148450
+ERROR 2024-04-03 19:16:08,098 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2053, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 52, in post
+    assignment, created = StudentAssignment.objects.get_or_create(student=student, subject_id=subject_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 916, in get_or_create
+    return self.get(**kwargs), False
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1492, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1319, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'None'.
+ERROR 2024-04-03 19:16:08,099 "POST /result/create/ HTTP/1.1" 500 148450
+INFO 2024-04-03 19:17:46,553 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:17:47,530 Watching for file changes with StatReloader
+INFO 2024-04-03 19:17:52,319 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:17:52,349 "GET /result/view/ HTTP/1.1" 200 8828
+INFO 2024-04-03 19:17:53,768 "GET /result/create/ HTTP/1.1" 200 10813
+INFO 2024-04-03 19:17:55,165 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:17:55,183 "GET /result/view/ HTTP/1.1" 200 8828
+INFO 2024-04-03 19:18:18,895 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:18:19,541 Watching for file changes with StatReloader
+INFO 2024-04-03 19:18:23,218 "GET /result/view/ HTTP/1.1" 200 8828
+INFO 2024-04-03 19:18:24,223 "GET /result/create/ HTTP/1.1" 200 10813
+INFO 2024-04-03 19:18:25,956 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:18:25,973 "GET /result/view/ HTTP/1.1" 200 8828
+INFO 2024-04-03 19:18:39,467 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:18:40,073 Watching for file changes with StatReloader
+INFO 2024-04-03 19:18:42,589 "GET /result/view/ HTTP/1.1" 200 8828
+INFO 2024-04-03 19:18:43,715 "GET /result/create/ HTTP/1.1" 200 10813
+INFO 2024-04-03 19:18:45,478 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:18:45,497 "GET /result/view/ HTTP/1.1" 200 8936
+INFO 2024-04-03 19:18:47,743 "GET /result/create/ HTTP/1.1" 200 10813
+INFO 2024-04-03 19:18:49,774 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:18:49,794 "GET /result/view/ HTTP/1.1" 200 9040
+INFO 2024-04-03 19:18:52,605 "GET /result/create/ HTTP/1.1" 200 10813
+INFO 2024-04-03 19:18:56,100 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:18:56,121 "GET /result/view/ HTTP/1.1" 200 9040
+INFO 2024-04-03 19:18:57,913 "GET /result/create/ HTTP/1.1" 200 10813
+ERROR 2024-04-03 19:19:00,818 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: result_studentassignment.student_id, result_studentassignment.subject_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 22, in post
+    StudentAssignment.objects.create(student=student_obj, subject=assignment.subject, grade=grade)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: result_studentassignment.student_id, result_studentassignment.subject_id
+ERROR 2024-04-03 19:19:00,823 "POST /result/create/ HTTP/1.1" 500 169573
+INFO 2024-04-03 19:21:23,438 "GET /result/view/ HTTP/1.1" 200 9040
+INFO 2024-04-03 19:21:53,440 "GET /student/project HTTP/1.1" 200 9502
+INFO 2024-04-03 19:24:47,027 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:24:48,003 Watching for file changes with StatReloader
+INFO 2024-04-03 19:24:51,893 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:24:51,898 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 19:24:51,917 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 19:24:51,952 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2024-04-03 19:24:51,953 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2024-04-03 19:24:52,003 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 19:24:59,126 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:24:59,147 "GET / HTTP/1.1" 200 8697
+INFO 2024-04-03 19:24:59,207 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 19:25:00,439 "GET /student/list HTTP/1.1" 200 9509
+INFO 2024-04-03 19:25:03,133 "GET /student/project HTTP/1.1" 200 9279
+INFO 2024-04-03 19:25:04,435 "GET /result/view/ HTTP/1.1" 200 9040
+INFO 2024-04-03 19:25:42,850 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:25:43,885 Watching for file changes with StatReloader
+INFO 2024-04-03 19:25:48,758 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:25:48,763 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 19:25:48,783 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 19:25:55,129 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 19:25:55,149 "GET / HTTP/1.1" 200 8697
+INFO 2024-04-03 19:25:56,736 "GET /result/view/ HTTP/1.1" 200 9040
+INFO 2024-04-03 19:28:44,267 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:28:45,232 Watching for file changes with StatReloader
+INFO 2024-04-03 19:29:18,407 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:29:19,436 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:29:23,323 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 37, in get_queryset
+    superuser_reg_no = self.request.user.registration_number
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'registration_number'
+ERROR 2024-04-03 19:29:23,325 "GET /result/view/ HTTP/1.1" 500 86434
+INFO 2024-04-03 19:32:09,738 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:32:10,696 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:32:13,933 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 37, in get_queryset
+    return StudentAssignment.objects.filter(registration_number=registration_number)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1725, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'registration_number' into field. Choices are: grade, id, student, student_id, subject, subject_id
+ERROR 2024-04-03 19:32:13,937 "GET /result/view/ HTTP/1.1" 500 126224
+INFO 2024-04-03 19:34:03,822 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:34:04,787 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:34:08,688 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 37, in get_queryset
+    return StudentAssignment.objects.filter(registration_number=registration_number)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1725, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'registration_number' into field. Choices are: grade, id, student, student_id, subject, subject_id
+ERROR 2024-04-03 19:34:08,692 "GET /result/view/ HTTP/1.1" 500 126224
+ERROR 2024-04-03 19:34:11,210 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 37, in get_queryset
+    return StudentAssignment.objects.filter(registration_number=registration_number)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1725, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'registration_number' into field. Choices are: grade, id, student, student_id, subject, subject_id
+ERROR 2024-04-03 19:34:11,211 "GET /result/view/ HTTP/1.1" 500 126224
+ERROR 2024-04-03 19:34:12,046 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 37, in get_queryset
+    return StudentAssignment.objects.filter(registration_number=registration_number)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1725, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'registration_number' into field. Choices are: grade, id, student, student_id, subject, subject_id
+ERROR 2024-04-03 19:34:12,048 "GET /result/view/ HTTP/1.1" 500 126224
+INFO 2024-04-03 19:34:16,458 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:34:17,417 Watching for file changes with StatReloader
+INFO 2024-04-03 19:35:01,817 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:35:02,826 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:35:05,069 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 37, in get_queryset
+    registration_number = self.request.user.student.registration_number
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'student'
+ERROR 2024-04-03 19:35:05,071 "GET /result/view/ HTTP/1.1" 500 86206
+INFO 2024-04-03 19:35:48,302 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:35:49,346 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:35:52,696 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 38, in get_queryset
+    student = self.request.user.student
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'student'
+ERROR 2024-04-03 19:35:52,698 "GET /result/view/ HTTP/1.1" 500 86683
+INFO 2024-04-03 19:36:28,710 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:36:30,206 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:36:32,419 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 38, in get_queryset
+    student = Student.objects.get(user=self.request.user)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1725, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: address, current_class, current_class_id, current_status, date_of_admission, date_of_birth, firstname, gender, id, invoice, other_name, others, parent_mobile_number, passport, registration_number, studentassignment, studentsubjectassignment, surname
+ERROR 2024-04-03 19:36:32,423 "GET /result/view/ HTTP/1.1" 500 132490
+INFO 2024-04-03 19:37:28,053 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:37:29,074 Watching for file changes with StatReloader
+INFO 2024-04-03 19:37:35,652 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:37:36,392 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:37:37,427 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 38, in get_queryset
+    student = Student.objects.get(user=self.request.registration_number)
+AttributeError: 'WSGIRequest' object has no attribute 'registration_number'
+ERROR 2024-04-03 19:37:37,429 "GET /result/view/ HTTP/1.1" 500 82778
+INFO 2024-04-03 19:38:07,431 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:38:08,133 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:38:09,364 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 37, in get_queryset
+    registration_number = self.request.user.registration_number
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'registration_number'
+ERROR 2024-04-03 19:38:09,367 "GET /result/view/ HTTP/1.1" 500 86250
+INFO 2024-04-03 19:38:17,799 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:38:18,518 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:38:19,257 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 37, in get_queryset
+    registration_number = self.request.user.Student.registration_number
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'Student'
+ERROR 2024-04-03 19:38:19,259 "GET /result/view/ HTTP/1.1" 500 86206
+INFO 2024-04-03 19:38:25,115 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:38:25,780 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:38:30,070 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 37, in get_queryset
+    registration_number = self.request.user.registration_number
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'registration_number'
+ERROR 2024-04-03 19:38:30,074 "GET /result/view/ HTTP/1.1" 500 86250
+INFO 2024-04-03 19:41:38,360 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:41:39,411 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:41:42,240 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 38, in get_queryset
+    student = Student.objects.get(user=self.request.registration_number)
+AttributeError: 'WSGIRequest' object has no attribute 'registration_number'
+ERROR 2024-04-03 19:41:42,242 "GET /result/view/ HTTP/1.1" 500 82778
+INFO 2024-04-03 19:42:15,629 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:42:16,585 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:42:19,886 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 38, in get_queryset
+    student = self.request.user.student
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'student'
+ERROR 2024-04-03 19:42:19,888 "GET /result/view/ HTTP/1.1" 500 86761
+INFO 2024-04-03 19:42:34,472 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:42:35,514 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:42:36,096 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 38, in get_queryset
+    student = self.request.user.registration_number
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'registration_number'
+ERROR 2024-04-03 19:42:36,098 "GET /result/view/ HTTP/1.1" 500 86845
+INFO 2024-04-03 19:43:05,667 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:43:06,874 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:43:08,145 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 38, in get_queryset
+    student = Student.objects.get(user=self.request.user)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1725, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: address, current_class, current_class_id, current_status, date_of_admission, date_of_birth, firstname, gender, id, invoice, other_name, others, parent_mobile_number, passport, registration_number, studentassignment, studentsubjectassignment, surname
+ERROR 2024-04-03 19:43:08,150 "GET /result/view/ HTTP/1.1" 500 132586
+INFO 2024-04-03 19:43:23,711 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:43:24,705 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:43:26,098 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 38, in get_queryset
+    student = Student.objects.get(user=self.request.registration_number)
+AttributeError: 'WSGIRequest' object has no attribute 'registration_number'
+ERROR 2024-04-03 19:43:26,104 "GET /result/view/ HTTP/1.1" 500 82874
+INFO 2024-04-03 19:43:36,496 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:43:37,442 Watching for file changes with StatReloader
+INFO 2024-04-03 19:44:23,944 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:44:24,929 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:44:25,870 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 37, in get_queryset
+    return StudentAssignment.objects.filter(registration_number=registration_number)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1725, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'registration_number' into field. Choices are: grade, id, student, student_id, subject, subject_id
+ERROR 2024-04-03 19:44:25,874 "GET /result/view/ HTTP/1.1" 500 126224
+INFO 2024-04-03 19:45:14,314 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/models.py changed, reloading.
+INFO 2024-04-03 19:45:15,298 Watching for file changes with StatReloader
+INFO 2024-04-03 19:45:48,001 Watching for file changes with StatReloader
+INFO 2024-04-03 19:46:04,470 Watching for file changes with StatReloader
+INFO 2024-04-03 19:46:14,011 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:46:14,694 Watching for file changes with StatReloader
+ERROR 2024-04-03 19:46:15,818 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py", line 37, in get_queryset
+    return StudentAssignment.objects.filter(registration_number=registration_number)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1546, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1577, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1427, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1237, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1725, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'registration_number' into field. Choices are: grade, id, student, student_id, subject, subject_id
+ERROR 2024-04-03 19:46:15,822 "GET /result/view/ HTTP/1.1" 500 126224
+INFO 2024-04-03 19:47:55,293 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/result/views.py changed, reloading.
+INFO 2024-04-03 19:47:56,372 Watching for file changes with StatReloader
+INFO 2024-04-03 19:47:57,368 "GET /result/view/ HTTP/1.1" 200 9040
+INFO 2024-04-03 19:47:57,394 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,394 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,399 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,400 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,401 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,409 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,413 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,416 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,418 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,419 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,422 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,424 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,426 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,606 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 19:47:57,606 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 19:50:42,391 "GET /result/view/ HTTP/1.1" 200 1784
+INFO 2024-04-03 19:50:44,340 "GET /student/list HTTP/1.1" 200 1784
+INFO 2024-04-03 19:50:45,411 "GET /staff/list/ HTTP/1.1" 200 1784
+INFO 2024-04-03 19:50:57,837 "GET /student/list HTTP/1.1" 200 9509
+INFO 2024-04-03 19:50:59,492 "GET /student/list HTTP/1.1" 200 9509
+INFO 2024-04-03 19:51:04,887 "GET /student/project HTTP/1.1" 200 9279
+INFO 2024-04-03 19:51:05,622 "GET /result/view/ HTTP/1.1" 200 9040
+ERROR 2024-04-03 19:53:24,078 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/smartif.py", line 179, in translate_token
+    op = OPERATORS[token]
+KeyError: "user.groups.filter(name='admin').exists"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 952, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 885, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/smartif.py", line 170, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/smartif.py", line 181, in translate_token
+    return self.create_var(token)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 888, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(name='admin').exists' from 'user.groups.filter(name='admin').exists'
+ERROR 2024-04-03 19:53:24,084 "GET /result/view/ HTTP/1.1" 500 234611
+ERROR 2024-04-03 19:54:34,528 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/smartif.py", line 179, in translate_token
+    op = OPERATORS[token]
+KeyError: "user.groups.filter(name='admin').first"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 952, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 885, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/smartif.py", line 170, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/smartif.py", line 181, in translate_token
+    return self.create_var(token)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 888, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(name='admin').first' from 'user.groups.filter(name='admin').first'
+ERROR 2024-04-03 19:54:34,530 "GET /result/view/ HTTP/1.1" 500 234585
+ERROR 2024-04-03 19:54:58,404 Internal Server Error: /result/view/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/smartif.py", line 179, in translate_token
+    op = OPERATORS[token]
+KeyError: "user.groups.filter(name='admin').first"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 952, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 885, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/smartif.py", line 170, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/smartif.py", line 181, in translate_token
+    return self.create_var(token)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 888, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(name='admin').first' from 'user.groups.filter(name='admin').first'
+ERROR 2024-04-03 19:54:58,406 "GET /result/view/ HTTP/1.1" 500 234605
+INFO 2024-04-03 19:56:35,130 "GET /result/view/ HTTP/1.1" 200 9040
+INFO 2024-04-03 19:56:36,937 "GET /student/list HTTP/1.1" 200 9509
+INFO 2024-04-03 19:56:39,311 "GET /result/view/ HTTP/1.1" 200 9040
+INFO 2024-04-03 19:56:41,221 "GET /student/list HTTP/1.1" 200 9509
+INFO 2024-04-03 19:56:42,728 "GET /student/assign HTTP/1.1" 200 10834
+INFO 2024-04-03 19:57:10,968 "GET /staff/list/ HTTP/1.1" 200 9554
+INFO 2024-04-03 19:57:30,720 "GET /subject/list/ HTTP/1.1" 200 11488
+INFO 2024-04-03 19:58:59,913 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/staffs/views.py changed, reloading.
+INFO 2024-04-03 19:59:00,959 Watching for file changes with StatReloader
+INFO 2024-04-03 19:59:04,539 "GET /subject/list/ HTTP/1.1" 200 11488
+INFO 2024-04-03 19:59:06,800 "GET /staff/list/ HTTP/1.1" 200 9554
+INFO 2024-04-03 19:59:09,555 "GET /staff/list/ HTTP/1.1" 200 9554
+INFO 2024-04-03 19:59:45,697 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/staffs/views.py changed, reloading.
+INFO 2024-04-03 19:59:46,739 Watching for file changes with StatReloader
+INFO 2024-04-03 19:59:47,291 "GET /staff/list/ HTTP/1.1" 200 9554
+INFO 2024-04-03 19:59:48,274 "GET /staff/list/ HTTP/1.1" 200 9554
+INFO 2024-04-03 19:59:54,248 "GET /student/list HTTP/1.1" 200 9509
+INFO 2024-04-03 19:59:56,852 "GET /student/assign HTTP/1.1" 200 10834
+INFO 2024-04-03 19:59:58,292 "GET /subject/list/ HTTP/1.1" 200 11488
+INFO 2024-04-03 20:00:01,527 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/staffs/views.py changed, reloading.
+INFO 2024-04-03 20:00:02,482 Watching for file changes with StatReloader
+INFO 2024-04-03 20:00:17,164 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/staffs/views.py changed, reloading.
+INFO 2024-04-03 20:00:18,076 Watching for file changes with StatReloader
+INFO 2024-04-03 20:00:22,600 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/staffs/views.py changed, reloading.
+INFO 2024-04-03 20:00:23,553 Watching for file changes with StatReloader
+INFO 2024-04-03 20:00:25,096 "GET /subject/list/ HTTP/1.1" 200 11488
+INFO 2024-04-03 20:00:26,372 "GET /student/project HTTP/1.1" 200 9279
+INFO 2024-04-03 20:00:28,406 "GET /staff/list/ HTTP/1.1" 200 9554
+INFO 2024-04-03 20:00:44,059 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 20:00:44,065 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 20:00:44,076 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 20:00:44,099 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2024-04-03 20:00:44,100 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2024-04-03 20:00:53,564 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 20:00:53,578 "GET / HTTP/1.1" 200 8697
+INFO 2024-04-03 20:00:55,052 "GET /staff/list/ HTTP/1.1" 200 9554
+INFO 2024-04-03 20:01:07,244 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/staffs/views.py changed, reloading.
+INFO 2024-04-03 20:01:08,206 Watching for file changes with StatReloader
+INFO 2024-04-03 20:01:11,541 "GET /staff/list/ HTTP/1.1" 200 9554

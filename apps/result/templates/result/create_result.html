@@ -8,10 +8,12 @@
 {% endblock title %}
 
 {% block content %}
-<form>
+<form method="POST">
+  {% csrf_token %}
   <table id="studenttable" class="table table-sm table-bordered" data-page-length='100'>
     <thead class="thead-light">
       <tr>
+        <th>Select</th>
         <th>Registration Number</th>
         <th>Name</th>
         <th>Class</th>
@@ -22,12 +24,18 @@
     <tbody>
       {% for student in students %}
         <tr>
-          <td>{{student.registration_number}}</td>
-          <td>{{student}} </td>
-          <td>{{student.current_class}}</td>
-          <td>PROJECT</td>
+          <td><input type="checkbox" name="students" value="{{ student.id }}"></td>
+          <td>{{ student.registration_number }}</td>
+          <td>{{ student }}</td>
+          <td>{{ student.current_class }}</td>
           <td>
-            <select name="grade" class="form-control">
+            {% for assignment in student.studentsubjectassignment_set.all %}
+              {{ assignment.subject.name }} - {{ assignment.subject.details }}
+              <br>
+            {% endfor %}
+          </td>
+          <td>
+            <select name="grade_{{ student.id }}" class="form-control">
               <option value="A+">A+</option>
               <option value="A">A</option>
               <option value="B">B</option>
@@ -42,23 +50,6 @@
     </tbody>
   </table>
 
-  <input type="submit" class="btn btn-success mt-2" value="Proceed >">
+  <input type="submit" class="btn btn-success mt-2" value="Proceed">
 </form>
 {% endblock content %}
-
-{% block morejs %}
-<script>
-  $('#studenttable').DataTable({
-    "ordering": false
-  });
-
-  $("#selecter").change(function () {
-    if (this.checked) {
-      $('input[name="students"]').prop('checked', true);
-    }
-    else {
-      $('input[name="students"]').prop('checked', false);
-    }
-  });
-</script>
-{% endblock morejs %}

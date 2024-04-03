@@ -56,7 +56,8 @@ class StudentBulkUpload(models.Model):
 class StudentSubjectAssignment(models.Model):
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
     subject = models.ForeignKey(Subject, on_delete=models.CASCADE)
-
+    class Meta:
+        unique_together = ('student',)
     def __str__(self):
         return f"{self.student} - {self.subject}"
 

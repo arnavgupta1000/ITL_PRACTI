@@ -1,6 +1,6 @@
 from django.contrib.messages.views import SuccessMessageMixin
 from django.forms import widgets
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, ListView
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
@@ -15,7 +15,7 @@ class StaffListView(ListView):
 class StaffDetailView(DetailView):
     model = Staff
     template_name = "staffs/staff_detail.html"
-
+        # Get the registration number of the logged-in user
 
 class StaffCreateView(SuccessMessageMixin, CreateView):
     model = Staff

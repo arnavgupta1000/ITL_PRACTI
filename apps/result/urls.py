@@ -1,10 +1,7 @@
 from django.urls import path
-
-from .views import ResultListView, create_result, edit_results
+from .views import GradeAssignView, ViewGradesView
 
 urlpatterns = [
-    path("create/", create_result, name="create-result"),
-    path("view-result/", ResultListView.as_view(), name="view-result"),
-    path("edit-results/", edit_results, name="edit-results"),
-    path("view/all", ResultListView.as_view(), name="view-results"),
+    path("create/", GradeAssignView.as_view(), name="create-result"),
+    path("view/", ViewGradesView.as_view(), name="view-result"),
 ]
