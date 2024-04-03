@@ -10,7 +10,7 @@
           <th>Full Name</th>
           <th>Registration Number</th>
           <th>Class</th>
-          <th>Project</th>
+          <th>Assign Subject</th>
         </tr>
       </thead>
       <tbody>
@@ -22,11 +22,18 @@
             <td>{{ student.registration_number}}</td>
             <td>{{ student.current_class}}</td>
             <td> 
-              <select name="project" id="project" style="width:auto">
-                <option value="Project1">Project1</option>
-                <option value="Project2">Project2</option>
-                <option value="Project3">Project3</option>
-              </select>
+              <form method="post">
+                {% csrf_token %}
+                <input type="hidden" name="student_regno" value="{{ student.registration_number }}">
+                <div class="form-group">
+                  <select name="subject_name" class="form-control" required>
+                    {% for subject in subjects %}
+                      <option value="{{ subject.name }}">{{ subject.name }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Assign</button>
+              </form>
             </td>
           </tr>
         {% endfor %}
@@ -41,5 +48,4 @@
 <script>
   $('#studenttable').DataTable({});
 </script>
-
 {% endblock morejs %}

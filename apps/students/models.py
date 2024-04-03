@@ -5,7 +5,7 @@ from django.utils import timezone
 
 from apps.corecode.models import StudentClass
 
-
+from apps.corecode.models import Subject
 class Student(models.Model):
     STATUS_CHOICES = [("active", "Active"), ("inactive", "Inactive")]
 
@@ -49,3 +49,10 @@ class Student(models.Model):
 class StudentBulkUpload(models.Model):
     date_uploaded = models.DateTimeField(auto_now=True)
     csv_file = models.FileField(upload_to="students/bulkupload/")
+
+class StudentSubjectAssignment(models.Model):
+    student = models.ForeignKey(Student, on_delete=models.CASCADE)
+    subject = models.ForeignKey(Subject, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"{self.student} - {self.subject}"

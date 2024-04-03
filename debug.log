@@ -1188,3 +1188,507 @@ INFO 2024-04-02 20:06:54,301 "GET /student/assign HTTP/1.1" 200 9713
 INFO 2024-04-02 20:07:11,561 "GET /student/assign HTTP/1.1" 200 9705
 INFO 2024-04-02 20:07:19,541 "GET /student/assign HTTP/1.1" 200 9705
 INFO 2024-04-02 20:07:40,312 "GET /student/assign HTTP/1.1" 200 9701
+INFO 2024-04-02 16:06:50,329 Watching for file changes with StatReloader
+INFO 2024-04-02 16:06:52,707 "GET / HTTP/1.1" 302 0
+INFO 2024-04-02 16:06:52,765 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-02 16:06:58,937 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-02 16:06:58,959 "GET / HTTP/1.1" 200 8403
+INFO 2024-04-02 16:07:02,046 "GET /student/assign HTTP/1.1" 200 10244
+INFO 2024-04-02 16:07:13,936 "GET /subject/list/ HTTP/1.1" 200 11197
+INFO 2024-04-02 16:07:15,263 "GET /student/assign HTTP/1.1" 200 10244
+INFO 2024-04-02 16:08:25,988 Watching for file changes with StatReloader
+INFO 2024-04-02 16:08:28,077 "GET /student/assign HTTP/1.1" 200 10568
+INFO 2024-04-02 16:08:32,432 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-02 16:08:32,461 "GET /student/assign HTTP/1.1" 200 10568
+INFO 2024-04-02 16:08:36,338 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-02 16:08:36,364 "GET /student/assign HTTP/1.1" 200 10568
+INFO 2024-04-02 16:08:48,469 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-02 16:08:48,499 "GET /student/assign HTTP/1.1" 200 10568
+INFO 2024-04-02 16:11:44,843 "GET /student/list HTTP/1.1" 200 9590
+INFO 2024-04-02 16:11:46,234 "GET /student/create/ HTTP/1.1" 200 12725
+INFO 2024-04-02 16:11:57,073 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-02 16:11:57,102 "GET /student/3/ HTTP/1.1" 200 10372
+INFO 2024-04-02 16:11:58,759 "GET /student/assign HTTP/1.1" 200 11463
+INFO 2024-04-02 16:12:02,092 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-02 16:12:02,126 "GET /student/assign HTTP/1.1" 200 11463
+INFO 2024-04-02 16:12:58,754 "GET /site-config HTTP/1.1" 200 9975
+INFO 2024-04-02 16:13:06,916 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 16:13:08,627 "GET /student/assign HTTP/1.1" 200 11463
+INFO 2024-04-02 16:19:55,508 Watching for file changes with StatReloader
+INFO 2024-04-02 16:19:58,301 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 16:20:00,488 "GET /student/assign HTTP/1.1" 200 11463
+INFO 2024-04-02 16:20:02,236 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-02 16:20:02,268 "GET /student/assign HTTP/1.1" 200 11463
+INFO 2024-04-02 16:20:06,159 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 16:20:07,764 "GET /student/create/ HTTP/1.1" 200 12725
+INFO 2024-04-02 16:20:17,397 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-02 16:20:17,440 "GET /student/4/ HTTP/1.1" 200 10358
+INFO 2024-04-02 16:20:18,192 "GET /student/assign HTTP/1.1" 200 12351
+INFO 2024-04-02 16:20:21,632 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-02 16:20:21,665 "GET /student/assign HTTP/1.1" 200 12351
+INFO 2024-04-02 16:28:07,049 Watching for file changes with StatReloader
+INFO 2024-04-02 16:28:08,474 "GET / HTTP/1.1" 200 8403
+INFO 2024-04-02 16:28:09,940 "GET /student/assign HTTP/1.1" 200 12351
+INFO 2024-04-02 16:47:05,955 Watching for file changes with StatReloader
+INFO 2024-04-02 16:48:08,700 Watching for file changes with StatReloader
+INFO 2024-04-02 16:49:33,867 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/corecode/middleware.py changed, reloading.
+INFO 2024-04-02 16:49:35,055 Watching for file changes with StatReloader
+INFO 2024-04-02 16:58:03,431 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/corecode/middleware.py changed, reloading.
+INFO 2024-04-02 16:58:04,328 Watching for file changes with StatReloader
+INFO 2024-04-02 16:58:53,746 Watching for file changes with StatReloader
+INFO 2024-04-02 16:59:21,021 Watching for file changes with StatReloader
+INFO 2024-04-02 16:59:48,934 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/corecode/middleware.py changed, reloading.
+INFO 2024-04-02 16:59:49,805 Watching for file changes with StatReloader
+INFO 2024-04-02 16:59:51,750 Watching for file changes with StatReloader
+ERROR 2024-04-02 16:59:54,030 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+TypeError: 'SiteWideConfigs' object is not callable
+ERROR 2024-04-02 16:59:54,031 "GET / HTTP/1.1" 500 54710
+ERROR 2024-04-02 17:00:03,526 Internal Server Error: /admin
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+TypeError: 'SiteWideConfigs' object is not callable
+ERROR 2024-04-02 17:00:03,528 "GET /admin HTTP/1.1" 500 54655
+ERROR 2024-04-02 17:00:27,857 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+TypeError: 'SiteWideConfigs' object is not callable
+ERROR 2024-04-02 17:00:27,858 "GET / HTTP/1.1" 500 54984
+ERROR 2024-04-02 17:00:28,206 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+TypeError: 'SiteWideConfigs' object is not callable
+ERROR 2024-04-02 17:00:28,207 "GET / HTTP/1.1" 500 54710
+INFO 2024-04-02 17:06:57,178 Watching for file changes with StatReloader
+ERROR 2024-04-02 17:06:58,554 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+TypeError: 'SiteWideConfigs' object is not callable
+ERROR 2024-04-02 17:06:58,556 "GET / HTTP/1.1" 500 54710
+INFO 2024-04-02 17:07:32,577 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/corecode/middleware.py changed, reloading.
+INFO 2024-04-02 17:07:33,591 Watching for file changes with StatReloader
+INFO 2024-04-02 17:08:02,439 Watching for file changes with StatReloader
+INFO 2024-04-02 17:08:44,043 Watching for file changes with StatReloader
+ERROR 2024-04-02 17:08:46,446 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 173, in render
+    with context.bind_template(self):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/context.py", line 251, in bind_template
+    processors = template.engine.template_context_processors + self._processors
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/engine.py", line 116, in template_context_processors
+    return tuple(import_string(path) for path in context_processors)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/engine.py", line 116, in <genexpr>
+    return tuple(import_string(path) for path in context_processors)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/corecode/context_processors.py", line 1, in <module>
+    from .models import AcademicSession, AcademicTerm, SiteConfig
+ImportError: cannot import name 'AcademicSession' from 'apps.corecode.models' (/Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/corecode/models.py)
+ERROR 2024-04-02 17:08:46,463 "GET / HTTP/1.1" 500 139220
+ERROR 2024-04-02 17:10:18,127 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'current-session' not found. 'current-session' is not a valid view function or pattern name.
+ERROR 2024-04-02 17:10:18,130 "GET / HTTP/1.1" 500 142564
+INFO 2024-04-02 17:11:32,073 "GET / HTTP/1.1" 200 8318
+INFO 2024-04-02 17:11:34,352 "GET /student/list HTTP/1.1" 200 10056
+INFO 2024-04-02 17:11:35,614 "GET /staff/list/ HTTP/1.1" 200 8951
+INFO 2024-04-02 17:11:36,724 "GET /subject/list/ HTTP/1.1" 200 11112
+INFO 2024-04-02 17:11:39,475 "GET /student/assign HTTP/1.1" 200 12266
+INFO 2024-04-02 17:11:42,115 "GET /result/create/ HTTP/1.1" 200 10122
+INFO 2024-04-02 17:11:43,395 "GET /subject/list/ HTTP/1.1" 200 11112
+INFO 2024-04-02 17:11:43,965 "GET /student/assign HTTP/1.1" 200 12266
+INFO 2024-04-02 17:11:45,261 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-02 17:11:45,285 "GET /student/assign HTTP/1.1" 200 12266
+INFO 2024-04-02 17:11:46,706 "GET /student/list HTTP/1.1" 200 10056
+INFO 2024-04-02 17:11:47,519 "GET /student/create/ HTTP/1.1" 200 12640
+INFO 2024-04-02 17:12:09,876 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-02 17:12:09,909 "GET /student/5/ HTTP/1.1" 200 10275
+INFO 2024-04-02 17:12:11,364 "GET /staff/list/ HTTP/1.1" 200 8951
+INFO 2024-04-02 17:12:12,292 "GET /subject/list/ HTTP/1.1" 200 11112
+INFO 2024-04-02 17:12:13,674 "GET /staff/list/ HTTP/1.1" 200 8951
+INFO 2024-04-02 17:12:14,507 "GET /staff/create/ HTTP/1.1" 200 11879
+INFO 2024-04-02 17:12:22,478 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-04-02 17:12:22,506 "GET /staff/2109/ HTTP/1.1" 200 9838
+INFO 2024-04-02 17:12:23,711 "GET /student/assign HTTP/1.1" 200 13157
+INFO 2024-04-02 17:12:29,269 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-02 17:12:29,294 "GET /student/assign HTTP/1.1" 200 13157
+INFO 2024-04-02 17:12:31,574 "GET /subject/list/ HTTP/1.1" 200 11112
+INFO 2024-04-02 17:12:38,790 "POST /subject/create/ HTTP/1.1" 200 9450
+INFO 2024-04-02 17:12:42,179 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-04-02 17:12:42,209 "GET /subject/list/ HTTP/1.1" 200 11699
+ERROR 2024-04-02 17:12:45,607 Internal Server Error: /subject/27/update/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 204, in get
+    return super().get(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 86, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Specifying both 'fields' and 'form_class' is not permitted.
+ERROR 2024-04-02 17:12:45,610 "GET /subject/27/update/ HTTP/1.1" 500 95299
+INFO 2024-04-02 17:12:46,924 "GET /subject/list/ HTTP/1.1" 200 11554
+INFO 2024-04-02 17:12:48,373 "GET /subject/27/delete/ HTTP/1.1" 200 9011
+INFO 2024-04-02 17:12:49,376 "POST /subject/27/delete/ HTTP/1.1" 302 0
+INFO 2024-04-02 17:12:49,406 "GET /subject/list/ HTTP/1.1" 200 11112
+INFO 2024-04-02 17:12:52,798 "POST /subject/create/ HTTP/1.1" 200 9450
+INFO 2024-04-02 17:12:59,233 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-04-02 17:12:59,259 "GET /subject/list/ HTTP/1.1" 200 11703
+INFO 2024-04-02 17:13:01,603 "GET /staff/list/ HTTP/1.1" 200 9175
+INFO 2024-04-02 17:13:04,145 "GET /student/assign HTTP/1.1" 200 13567
+INFO 2024-04-02 17:23:42,451 Watching for file changes with StatReloader
+INFO 2024-04-02 17:23:43,703 "GET / HTTP/1.1" 200 8318
+INFO 2024-04-02 17:23:45,920 "GET /finance/list/ HTTP/1.1" 200 8953
+INFO 2024-04-02 17:23:48,219 "GET /finance/create/ HTTP/1.1" 200 11821
+INFO 2024-04-02 17:23:55,435 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2024-04-02 17:23:55,513 "GET /finance/list HTTP/1.1" 301 0
+INFO 2024-04-02 17:23:55,553 "GET /finance/list/ HTTP/1.1" 200 9370
+INFO 2024-04-02 17:24:29,414 "GET /finance/list/ HTTP/1.1" 200 9402
+INFO 2024-04-02 17:24:30,436 "GET /finance/list/ HTTP/1.1" 200 9402
+INFO 2024-04-02 17:25:22,039 "GET /finance/list/ HTTP/1.1" 200 9449
+INFO 2024-04-02 17:26:05,146 "GET /finance/list/ HTTP/1.1" 200 9424
+INFO 2024-04-02 17:26:23,119 "GET /result/create/ HTTP/1.1" 200 10352
+ERROR 2024-04-02 17:26:51,158 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/result/views.py", line 57, in create_result
+    "session": request.current_session,
+AttributeError: 'WSGIRequest' object has no attribute 'current_session'
+ERROR 2024-04-02 17:26:51,160 "POST /result/create/ HTTP/1.1" 500 70581
+INFO 2024-04-02 17:28:10,719 "GET /student/list HTTP/1.1" 200 10383
+WARNING 2024-04-02 17:28:18,383 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-04-02 17:28:18,386 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2024-04-02 17:28:18,389 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2024-04-02 17:28:18,435 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2024-04-02 17:28:18,484 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2024-04-02 17:30:43,074 "GET /student/list HTTP/1.1" 200 10190
+WARNING 2024-04-02 17:30:43,627 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-04-02 17:31:06,567 "GET /student/list HTTP/1.1" 200 10190
+INFO 2024-04-02 17:31:07,388 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-02 17:31:08,043 "GET /subject/list/ HTTP/1.1" 200 11419
+INFO 2024-04-02 17:31:08,406 "GET /student/assign HTTP/1.1" 200 13428
+INFO 2024-04-02 17:31:10,171 "GET /result/create/ HTTP/1.1" 200 10159
+INFO 2024-04-02 17:31:13,990 "GET /student/list HTTP/1.1" 200 10190
+INFO 2024-04-02 17:31:18,827 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-02 17:31:18,831 "GET / HTTP/1.1" 302 0
+INFO 2024-04-02 17:31:18,844 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-02 17:46:53,034 "GET / HTTP/1.1" 302 0
+INFO 2024-04-02 17:46:53,054 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-02 17:47:07,679 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-02 17:47:07,697 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-02 17:47:11,758 "GET /student/list HTTP/1.1" 200 10190
+INFO 2024-04-02 17:47:13,052 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-02 17:47:13,892 "GET /subject/list/ HTTP/1.1" 200 11419
+INFO 2024-04-02 17:47:14,423 "GET /student/assign HTTP/1.1" 200 13428
+INFO 2024-04-02 17:47:52,273 "GET /result/create/ HTTP/1.1" 200 10159
+INFO 2024-04-02 17:47:54,418 "GET /student/assign HTTP/1.1" 200 13428
+INFO 2024-04-02 17:47:55,449 "GET /student/assign HTTP/1.1" 200 13428
+INFO 2024-04-02 17:47:57,046 "GET /subject/list/ HTTP/1.1" 200 11419
+INFO 2024-04-02 17:47:58,091 "GET /student/list HTTP/1.1" 200 10190
+INFO 2024-04-02 17:47:59,537 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-02 17:50:38,569 "GET /student/list HTTP/1.1" 200 10190
+INFO 2024-04-02 17:50:44,434 "GET /student/list HTTP/1.1" 200 10190
+INFO 2024-04-02 17:51:32,761 "GET /student/list HTTP/1.1" 200 10035
+INFO 2024-04-02 17:51:55,202 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 17:52:00,528 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-02 17:52:26,089 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 17:52:42,549 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 17:52:59,593 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 17:53:00,410 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-02 17:53:01,822 "GET /student/assign HTTP/1.1" 200 13428
+INFO 2024-04-02 17:53:02,383 "GET /subject/list/ HTTP/1.1" 200 11419
+INFO 2024-04-02 17:53:12,964 "GET /result/create/ HTTP/1.1" 200 10159
+INFO 2024-04-02 17:53:14,462 "GET /student/assign HTTP/1.1" 200 13428
+INFO 2024-04-02 17:53:15,137 "GET /subject/list/ HTTP/1.1" 200 11419
+INFO 2024-04-02 17:53:16,340 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-02 17:53:16,878 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 17:53:49,116 "GET /result/create/ HTTP/1.1" 200 10159
+INFO 2024-04-02 17:54:34,083 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 17:54:37,435 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-02 17:54:39,427 "GET /subject/list/ HTTP/1.1" 200 11419
+INFO 2024-04-02 17:54:40,757 "GET /student/assign HTTP/1.1" 200 13428
+INFO 2024-04-02 17:54:42,166 "GET /result/create/ HTTP/1.1" 200 10159
+INFO 2024-04-02 17:54:44,111 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 17:55:26,082 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 17:55:28,517 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-02 17:55:31,492 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 17:55:37,729 "GET /finance/list/ HTTP/1.1" 200 9231
+ERROR 2024-04-02 17:55:43,099 Internal Server Error: /class/list/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: corecode/class_list.html, corecode/studentclass_list.html
+ERROR 2024-04-02 17:55:43,100 "GET /class/list/ HTTP/1.1" 500 83436
+INFO 2024-04-02 18:01:56,564 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-02 18:01:58,934 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-02 18:01:58,939 "GET / HTTP/1.1" 302 0
+INFO 2024-04-02 18:01:58,954 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-02 18:45:13,082 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-02 18:45:13,102 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-02 18:45:16,192 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-02 18:45:17,599 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-02 18:45:18,963 "GET /subject/list/ HTTP/1.1" 200 11419
+INFO 2024-04-02 18:45:19,858 "GET /student/assign HTTP/1.1" 200 13428
+INFO 2024-04-02 18:45:24,232 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-02 18:45:24,238 "GET / HTTP/1.1" 302 0
+INFO 2024-04-02 18:45:24,247 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 05:04:45,824 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 05:04:45,917 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 05:04:45,996 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2024-04-03 05:04:46,029 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2024-04-03 05:04:46,040 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2024-04-03 05:04:46,046 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2024-04-03 05:04:46,054 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2024-04-03 05:04:46,062 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2024-04-03 05:04:46,067 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2024-04-03 05:04:46,074 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2024-04-03 05:04:46,075 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2024-04-03 05:04:46,088 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2024-04-03 05:04:46,104 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2024-04-03 05:04:46,252 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2024-04-03 05:04:51,586 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 05:04:51,601 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 05:04:51,668 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2024-04-03 05:04:51,680 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2024-04-03 05:04:51,823 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-04-03 05:04:55,046 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-03 05:04:56,044 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-03 05:04:57,071 "GET /subject/list/ HTTP/1.1" 200 11419
+INFO 2024-04-03 05:04:57,642 "GET /student/assign HTTP/1.1" 200 13428
+INFO 2024-04-03 05:04:58,371 "GET /result/create/ HTTP/1.1" 200 10159
+ERROR 2024-04-03 05:05:01,413 Internal Server Error: /result/create/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/result/views.py", line 57, in create_result
+    "session": request.current_session,
+AttributeError: 'WSGIRequest' object has no attribute 'current_session'
+ERROR 2024-04-03 05:05:01,414 "POST /result/create/ HTTP/1.1" 500 70581
+INFO 2024-04-03 05:05:05,928 "GET /finance/list/ HTTP/1.1" 200 9231
+INFO 2024-04-03 05:05:08,120 - Broken pipe from ('127.0.0.1', 57958)
+INFO 2024-04-03 05:05:08,129 "GET /finance/receipt/create?invoice=1 HTTP/1.1" 200 9725
+INFO 2024-04-03 05:05:14,825 "POST /finance/receipt/create?invoice=1 HTTP/1.1" 302 0
+INFO 2024-04-03 05:05:14,851 "GET /finance/list/ HTTP/1.1" 200 9238
+INFO 2024-04-03 05:05:24,918 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 05:05:25,345 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-03 05:05:33,940 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-03 10:57:25,589 Watching for file changes with StatReloader
+INFO 2024-04-03 10:57:28,098 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 10:57:28,148 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 10:57:28,268 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:28,271 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:28,271 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:28,283 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:28,294 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:28,302 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:28,404 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:28,409 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:28,415 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:28,416 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:28,424 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:28,583 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:33,344 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 10:57:33,369 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 10:57:33,396 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:33,402 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:33,662 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-03 10:57:39,496 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-03 10:57:42,633 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-03 10:57:44,991 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-03 10:57:45,867 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-03 10:58:06,024 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-03 10:58:06,759 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-03 10:58:07,682 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-03 10:58:11,629 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-03 10:58:12,470 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-03 10:58:14,249 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-03 10:58:21,256 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-03 10:58:24,846 "GET /staff/create/ HTTP/1.1" 200 11740
+INFO 2024-04-03 10:58:30,046 "GET /subject/list/ HTTP/1.1" 200 11419
+INFO 2024-04-03 10:58:35,736 "POST /subject/create/ HTTP/1.1" 200 9311
+INFO 2024-04-03 10:58:37,944 "GET /student/list HTTP/1.1" 200 9869
+INFO 2024-04-03 10:58:38,978 "GET /student/4/ HTTP/1.1" 200 9988
+INFO 2024-04-03 10:58:39,073 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2024-04-03 10:58:40,728 "GET /student/delete/4/ HTTP/1.1" 200 8484
+INFO 2024-04-03 10:58:41,971 "POST /student/delete/4/ HTTP/1.1" 302 0
+INFO 2024-04-03 10:58:41,992 "GET /student/list HTTP/1.1" 200 9651
+INFO 2024-04-03 10:58:44,507 "GET /student/3/ HTTP/1.1" 200 10481
+INFO 2024-04-03 10:58:47,813 "GET /student/3/update/ HTTP/1.1" 200 12537
+INFO 2024-04-03 10:58:52,415 "GET /student/list HTTP/1.1" 200 9651
+INFO 2024-04-03 10:58:52,860 "GET /student/assign HTTP/1.1" 200 12458
+INFO 2024-04-03 10:58:53,281 "GET /subject/list/ HTTP/1.1" 200 11419
+ERROR 2024-04-03 10:58:55,214 Internal Server Error: /subject/26/update/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 73, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 204, in get
+    return super().get(request, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 144, in get
+    return self.render_to_response(self.get_context_data())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 74, in get_context_data
+    kwargs["form"] = self.get_form()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 38, in get_form
+    form_class = self.get_form_class()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/views/generic/edit.py", line 86, in get_form_class
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Specifying both 'fields' and 'form_class' is not permitted.
+ERROR 2024-04-03 10:58:55,217 "GET /subject/26/update/ HTTP/1.1" 500 95299
+INFO 2024-04-03 10:59:17,789 "GET /student/assign HTTP/1.1" 200 12458
+INFO 2024-04-03 10:59:22,654 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-03 10:59:22,676 "GET /student/assign HTTP/1.1" 200 12458
+INFO 2024-04-03 10:59:37,985 "GET /student/list HTTP/1.1" 200 9651
+INFO 2024-04-03 10:59:45,512 "GET /student/list HTTP/1.1" 200 9651
+INFO 2024-04-03 11:01:52,837 Watching for file changes with StatReloader
+INFO 2024-04-03 11:01:55,371 "GET /finance/list/ HTTP/1.1" 200 9238
+INFO 2024-04-03 11:01:58,198 "GET /result/create/ HTTP/1.1" 200 9984
+INFO 2024-04-03 11:02:21,455 "GET /finance/list/ HTTP/1.1" 200 9238
+INFO 2024-04-03 11:02:32,800 - Broken pipe from ('127.0.0.1', 58984)
+INFO 2024-04-03 11:02:32,829 "GET /finance/receipt/create?invoice=1 HTTP/1.1" 200 9732
+INFO 2024-04-03 11:02:36,782 "POST /finance/receipt/create?invoice=1 HTTP/1.1" 302 0
+INFO 2024-04-03 11:02:36,819 "GET /finance/list/ HTTP/1.1" 200 9238
+INFO 2024-04-03 11:02:42,590 "GET /finance/1/detail/ HTTP/1.1" 200 9959
+INFO 2024-04-03 11:02:50,395 "GET /finance/1/delete/ HTTP/1.1" 200 8499
+INFO 2024-04-03 11:02:51,889 "POST /finance/1/delete/ HTTP/1.1" 302 0
+INFO 2024-04-03 11:02:51,911 "GET /finance/list/ HTTP/1.1" 200 8814
+ERROR 2024-04-03 11:02:54,704 Internal Server Error: /class/list/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: corecode/class_list.html, corecode/studentclass_list.html
+ERROR 2024-04-03 11:02:54,707 "GET /class/list/ HTTP/1.1" 500 83436
+INFO 2024-04-03 11:03:00,662 "GET /site-config HTTP/1.1" 200 9751
+INFO 2024-04-03 11:03:08,015 "POST /site-config HTTP/1.1" 200 9766
+INFO 2024-04-03 11:03:11,530 "POST /site-config HTTP/1.1" 200 9766
+INFO 2024-04-03 11:03:13,492 "POST /site-config HTTP/1.1" 200 9766
+INFO 2024-04-03 11:03:14,010 "POST /site-config HTTP/1.1" 200 9766
+INFO 2024-04-03 11:03:14,298 "POST /site-config HTTP/1.1" 200 9766
+INFO 2024-04-03 11:03:36,662 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 11:03:50,438 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 11:03:50,444 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 11:03:50,455 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 11:04:00,514 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 11:04:00,527 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 11:05:20,869 "GET /student/list HTTP/1.1" 200 9651
+INFO 2024-04-03 11:05:37,985 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-03 11:05:40,673 "GET /student/assign HTTP/1.1" 200 12458
+INFO 2024-04-03 11:05:41,104 "GET /subject/list/ HTTP/1.1" 200 11419
+INFO 2024-04-03 11:05:44,102 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-03 11:05:45,742 "GET /student/list HTTP/1.1" 200 9651
+INFO 2024-04-03 11:05:46,845 "GET /student/upload/ HTTP/1.1" 200 8890
+INFO 2024-04-03 11:05:54,032 "GET /student/list HTTP/1.1" 200 9651

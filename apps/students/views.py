@@ -7,11 +7,11 @@ from django.http import HttpResponse
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, ListView, View
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
-
+from apps.corecode.models import Subject
 from apps.finance.models import Invoice
-
-from .models import Student, StudentBulkUpload
-
+from django.shortcuts import redirect
+from .models import Student, StudentBulkUpload,StudentSubjectAssignment
+from django.views.generic import ListView
 
 class StudentListView(LoginRequiredMixin, ListView):
     model = Student
@@ -96,3 +96,26 @@ class DownloadCSVViewdownloadcsv(LoginRequiredMixin, View):
         )
 
         return response
+
+class StudentAssignView(LoginRequiredMixin, ListView):
+    model = Student
+    template_name = "students/student_assign.html"
+    context_object_name = "students"
+
+    def post(self, request, *args, **kwargs):
+        student_regno = request.POST.get("student_regno")
+        subject_name = request.POST.get("subject_name")
+
+        # Get the student and subject objects
+        student = Student.objects.get(registration_number=student_regno)
+        subject = Subject.objects.get(name=subject_name)
+
+        # Create a new assignment
+        assignment = StudentSubjectAssignment.objects.create(student=student, subject=subject)
+
+        return redirect("student-assign")
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        # Add subjects to the context
+        context['subjects'] = Subject.objects.all()
+        return context

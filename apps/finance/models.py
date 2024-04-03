@@ -2,14 +2,12 @@ from django.db import models
 from django.urls import reverse
 from django.utils import timezone
 
-from apps.corecode.models import AcademicSession, AcademicTerm, StudentClass
+from apps.corecode.models import  StudentClass
 from apps.students.models import Student
 
 
 class Invoice(models.Model):
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
-    session = models.ForeignKey(AcademicSession, on_delete=models.CASCADE)
-    term = models.ForeignKey(AcademicTerm, on_delete=models.CASCADE)
     class_for = models.ForeignKey(StudentClass, on_delete=models.CASCADE)
     balance_from_previous_term = models.IntegerField(default=0)
     status = models.CharField(
@@ -19,7 +17,7 @@ class Invoice(models.Model):
     )
 
     class Meta:
-        ordering = ["student", "term"]
+        ordering = ["student", "class_for"]
 
     def __str__(self):
         return f"{self.student}"
