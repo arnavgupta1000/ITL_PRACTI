@@ -1893,3 +1893,193 @@ INFO 2024-04-03 13:49:34,781 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
 INFO 2024-04-03 13:49:41,156 "POST /accounts/login/ HTTP/1.1" 200 4106
 INFO 2024-04-03 13:49:48,109 "POST /accounts/login/ HTTP/1.1" 302 0
 INFO 2024-04-03 13:49:48,124 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 13:59:28,499 Watching for file changes with StatReloader
+INFO 2024-04-03 13:59:30,372 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 13:59:32,837 "GET /student/list HTTP/1.1" 200 8770
+INFO 2024-04-03 13:59:34,226 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-03 13:59:40,287 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 13:59:40,293 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 13:59:40,311 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 13:59:45,248 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 13:59:45,265 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 13:59:47,950 "GET /student/list HTTP/1.1" 200 8770
+INFO 2024-04-03 13:59:49,054 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-03 13:59:56,721 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 13:59:56,744 "GET /student/9/ HTTP/1.1" 200 10142
+INFO 2024-04-03 13:59:58,776 "GET /student/list HTTP/1.1" 200 8992
+INFO 2024-04-03 14:00:00,889 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-03 14:00:09,204 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:00:09,220 "GET /student/10/ HTTP/1.1" 200 10148
+INFO 2024-04-03 14:00:10,227 "GET /student/list HTTP/1.1" 200 9217
+INFO 2024-04-03 14:00:12,123 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:00:12,129 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:00:12,138 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:00:18,692 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:00:18,706 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:00:19,950 "GET /student/list HTTP/1.1" 200 9217
+INFO 2024-04-03 14:00:29,701 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:00:29,705 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:00:29,713 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:01:59,012 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:01:59,031 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:02:00,232 "GET /student/list HTTP/1.1" 200 9375
+INFO 2024-04-03 14:02:03,489 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:02:03,493 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:02:03,505 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:02:08,537 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:02:08,552 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:02:10,562 "GET /student/list HTTP/1.1" 200 9375
+WARNING 2024-04-03 14:02:36,698 Not Found: /admin
+WARNING 2024-04-03 14:02:36,699 "GET /admin HTTP/1.1" 404 4497
+WARNING 2024-04-03 14:02:36,895 Not Found: /admin
+WARNING 2024-04-03 14:02:36,896 "GET /admin HTTP/1.1" 404 4497
+INFO 2024-04-03 14:05:15,436 Watching for file changes with StatReloader
+INFO 2024-04-03 14:05:23,907 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:05:26,422 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:05:26,426 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:05:26,441 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:05:36,491 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:05:36,507 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:05:39,931 "GET /student/list HTTP/1.1" 200 9375
+INFO 2024-04-03 14:05:40,975 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-03 14:05:43,378 "GET /staff/list/ HTTP/1.1" 200 9036
+INFO 2024-04-03 14:05:45,968 "GET /subject/list/ HTTP/1.1" 200 11419
+INFO 2024-04-03 14:05:53,053 "GET /student/assign HTTP/1.1" 200 10518
+INFO 2024-04-03 14:06:31,384 "GET /student/assign HTTP/1.1" 200 10518
+INFO 2024-04-03 14:06:36,191 "GET /student/list HTTP/1.1" 200 9375
+INFO 2024-04-03 14:06:37,507 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-03 14:06:51,806 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:06:51,825 "GET /student/11/ HTTP/1.1" 200 10142
+INFO 2024-04-03 14:06:53,537 "GET /student/list HTTP/1.1" 200 9660
+INFO 2024-04-03 14:06:56,610 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:06:56,615 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:06:56,622 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:07:09,581 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:07:09,595 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:08:01,892 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:08:01,897 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:08:01,905 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:16:53,495 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:16:54,664 Watching for file changes with StatReloader
+INFO 2024-04-03 14:17:00,205 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:17:00,914 Watching for file changes with StatReloader
+INFO 2024-04-03 14:17:02,492 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:17:02,520 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:17:09,887 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:17:09,908 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:17:13,174 "GET /student/list HTTP/1.1" 200 8893
+INFO 2024-04-03 14:17:16,629 "GET /student/create/ HTTP/1.1" 200 12501
+INFO 2024-04-03 14:17:26,431 "POST /student/create/ HTTP/1.1" 200 12675
+INFO 2024-04-03 14:17:32,241 "GET /student/list HTTP/1.1" 200 8893
+INFO 2024-04-03 14:17:51,519 Watching for file changes with StatReloader
+INFO 2024-04-03 14:17:52,445 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:17:52,462 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:17:52,495 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:18:00,391 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:18:00,412 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:18:01,521 "GET /student/list HTTP/1.1" 200 9087
+INFO 2024-04-03 14:18:04,666 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:18:04,675 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:18:04,689 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:19:47,133 Watching for file changes with StatReloader
+INFO 2024-04-03 14:19:48,395 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:19:48,423 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:19:53,390 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:19:53,410 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:19:56,387 "GET /student/list HTTP/1.1" 200 8893
+INFO 2024-04-03 14:22:12,986 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:22:14,316 Watching for file changes with StatReloader
+INFO 2024-04-03 14:22:36,080 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:22:36,693 Watching for file changes with StatReloader
+INFO 2024-04-03 14:24:44,042 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:24:45,073 Watching for file changes with StatReloader
+INFO 2024-04-03 14:24:48,593 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:24:49,301 Watching for file changes with StatReloader
+INFO 2024-04-03 14:24:50,706 "GET / HTTP/1.1" 200 8179
+WARNING 2024-04-03 14:24:52,493 Not Found: /student/list
+WARNING 2024-04-03 14:24:52,494 "GET /student/list HTTP/1.1" 404 4317
+INFO 2024-04-03 14:25:02,028 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:25:02,034 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:25:02,047 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:25:06,613 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:25:06,629 "GET / HTTP/1.1" 200 8179
+WARNING 2024-04-03 14:25:09,312 Not Found: /student/list
+WARNING 2024-04-03 14:25:09,312 "GET /student/list HTTP/1.1" 404 4317
+INFO 2024-04-03 14:25:14,630 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:25:15,564 Watching for file changes with StatReloader
+INFO 2024-04-03 14:25:17,583 "GET /student/list HTTP/1.1" 200 8893
+INFO 2024-04-03 14:25:35,591 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:25:36,513 Watching for file changes with StatReloader
+WARNING 2024-04-03 14:25:40,352 Not Found: /student/list
+WARNING 2024-04-03 14:25:40,353 "GET /student/list HTTP/1.1" 404 4317
+INFO 2024-04-03 14:25:45,580 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:25:45,584 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:25:45,601 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:25:50,358 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:25:50,381 "GET / HTTP/1.1" 200 8179
+WARNING 2024-04-03 14:25:52,611 Not Found: /student/list
+WARNING 2024-04-03 14:25:52,612 "GET /student/list HTTP/1.1" 404 4317
+INFO 2024-04-03 14:26:21,073 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:26:21,078 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:26:21,088 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:26:27,047 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:26:27,062 "GET / HTTP/1.1" 200 8179
+WARNING 2024-04-03 14:26:27,904 Not Found: /student/list
+WARNING 2024-04-03 14:26:27,905 "GET /student/list HTTP/1.1" 404 4317
+INFO 2024-04-03 14:29:52,956 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:29:54,043 Watching for file changes with StatReloader
+INFO 2024-04-03 14:32:05,986 Watching for file changes with StatReloader
+INFO 2024-04-03 14:32:07,318 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:32:09,593 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:32:09,599 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:32:09,617 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:32:14,160 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:32:14,174 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:32:16,696 "GET /student/list HTTP/1.1" 200 8893
+INFO 2024-04-03 14:33:01,938 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:33:02,914 Watching for file changes with StatReloader
+INFO 2024-04-03 14:33:05,700 "GET /student/list HTTP/1.1" 200 8893
+INFO 2024-04-03 14:33:07,470 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:33:07,479 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:33:07,493 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:33:11,932 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:33:11,949 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:33:15,127 "GET /student/list HTTP/1.1" 200 8893
+INFO 2024-04-03 14:33:18,923 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:33:18,933 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:33:18,945 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:33:25,968 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:33:25,983 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:33:26,933 "GET /student/list HTTP/1.1" 200 9087
+INFO 2024-04-03 14:33:29,247 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:33:29,259 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:33:29,266 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:33:52,894 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:33:53,896 Watching for file changes with StatReloader
+INFO 2024-04-03 14:34:00,070 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:34:00,108 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:34:02,945 "GET /student/list HTTP/1.1" 200 9660
+INFO 2024-04-03 14:37:01,790 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:37:02,888 Watching for file changes with StatReloader
+INFO 2024-04-03 14:37:09,368 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:37:10,367 Watching for file changes with StatReloader
+INFO 2024-04-03 14:37:13,722 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:37:13,728 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:37:13,750 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:37:18,425 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:37:18,449 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:37:21,126 "GET /student/list HTTP/1.1" 200 9660
+INFO 2024-04-03 14:37:24,315 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:37:24,319 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:37:24,327 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:37:30,120 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:37:30,135 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:37:30,856 "GET /student/list HTTP/1.1" 200 9087
+INFO 2024-04-03 14:37:32,478 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:37:32,483 "GET / HTTP/1.1" 302 0
+INFO 2024-04-03 14:37:32,491 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-03 14:37:37,815 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/views.py changed, reloading.
+INFO 2024-04-03 14:37:38,755 Watching for file changes with StatReloader
+INFO 2024-04-03 14:37:45,031 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-03 14:37:45,071 "GET / HTTP/1.1" 200 8179
+INFO 2024-04-03 14:37:47,250 "GET /student/list HTTP/1.1" 200 9660

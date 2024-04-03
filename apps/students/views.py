@@ -9,13 +9,27 @@ from django.views.generic import DetailView, ListView, View
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
 from apps.corecode.models import Subject
 from apps.finance.models import Invoice
-from django.shortcuts import redirect
+from django.shortcuts import get_object_or_404, redirect
 from .models import Student, StudentBulkUpload,StudentSubjectAssignment
 from django.views.generic import ListView
 
 class StudentListView(LoginRequiredMixin, ListView):
     model = Student
     template_name = "students/student_list.html"
+    def get_queryset(self):
+        # Get the registration number of the logged-in user
+        registration_number = self.request.user.username
+        if(registration_number=='admin'):
+            return Student.objects.all()
+        else:
+        # Filter the queryset based on the registration number
+            return Student.objects.filter(registration_number=registration_number)
+
+    def get_object(self, queryset=None):
+        # Get the object based on the filtered queryset
+        queryset = self.get_queryset()
+        obj = get_object_or_404(queryset, pk=self.kwargs.get('pk'))
+        return obj
 
 class StudentAssignView(LoginRequiredMixin, ListView):
     model = Student
@@ -25,10 +39,21 @@ class StudentDetailView(LoginRequiredMixin, DetailView):
     model = Student
     template_name = "students/student_detail.html"
 
-    def get_context_data(self, **kwargs):
-        context = super(StudentDetailView, self).get_context_data(**kwargs)
-        context["payments"] = Invoice.objects.filter(student=self.object)
-        return context
+    def get_queryset(self):
+        # Check if the user is an admin
+        if self.request.user.is_superuser:
+            # Admin user can see all student details
+            return Student.objects.all()
+        else:
+            # Regular user can only see their own details
+            registration_number = self.request.user.username
+            return Student.objects.filter(registration_number=registration_number)
+
+    def get_object(self, queryset=None):
+        # Get the object based on the filtered queryset
+        queryset = self.get_queryset()
+        obj = get_object_or_404(queryset, pk=self.kwargs.get('pk'))
+        return obj
 
 
 class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
