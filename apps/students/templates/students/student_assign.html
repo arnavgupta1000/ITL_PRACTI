@@ -9,7 +9,7 @@
           <th>S/N</th>
           <th>Full Name</th>
           <th>Registration Number</th>
-          <th>Class</th>
+          
           <th>Assign Project</th>
         </tr>
       </thead>
@@ -20,7 +20,7 @@
             <td>{{ forloop.counter}}</td>
             <td>{{ student.surname}} {{student.firstname }} {{student.other_name }}</td>
             <td>{{ student.registration_number}}</td>
-            <td>{{ student.current_class}}</td>
+            
             <td> 
               <form method="post">
                 {% csrf_token %}

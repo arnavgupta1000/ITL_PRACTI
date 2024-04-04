@@ -37,7 +37,7 @@ class Student(models.Model):
 
     address = models.TextField(blank=True)
     others = models.TextField(blank=True)
-    passport = models.ImageField(blank=True, upload_to="students/passports/")
+    resume = models.ImageField(blank=True, upload_to="students/resumes/")  # Changed field name to 'resume'
 
     class Meta:
         ordering = ["surname", "firstname", "other_name"]
@@ -47,6 +47,7 @@ class Student(models.Model):
 
     def get_absolute_url(self):
         return reverse("student-detail", kwargs={"pk": self.pk})
+
 
 
 class StudentBulkUpload(models.Model):

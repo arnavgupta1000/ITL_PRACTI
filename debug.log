@@ -5146,3 +5146,515 @@ INFO 2024-04-03 20:00:55,052 "GET /staff/list/ HTTP/1.1" 200 9554
 INFO 2024-04-03 20:01:07,244 /Users/arnavgupta/Desktop/itl/ITL_PRACTI-main 2/apps/staffs/views.py changed, reloading.
 INFO 2024-04-03 20:01:08,206 Watching for file changes with StatReloader
 INFO 2024-04-03 20:01:11,541 "GET /staff/list/ HTTP/1.1" 200 9554
+INFO 2024-04-04 03:37:53,765 Watching for file changes with StatReloader
+INFO 2024-04-04 03:37:56,229 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 03:37:56,333 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-04 03:37:56,529 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,530 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,535 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,536 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,538 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,542 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,568 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,570 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,574 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,575 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,576 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,577 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,595 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-04 03:37:56,732 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-04 03:38:01,794 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 03:38:01,814 "GET / HTTP/1.1" 200 8697
+INFO 2024-04-04 03:38:01,842 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-04 03:38:01,842 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-04 03:38:02,012 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-04 03:38:04,029 "GET /result/create/ HTTP/1.1" 200 10813
+INFO 2024-04-04 03:38:04,815 "GET /result/view/ HTTP/1.1" 200 9040
+INFO 2024-04-04 03:38:17,682 "GET /student/list HTTP/1.1" 200 9726
+INFO 2024-04-04 03:38:18,681 "GET /staff/list/ HTTP/1.1" 200 9554
+INFO 2024-04-04 03:38:20,095 "GET /student/list HTTP/1.1" 200 9726
+INFO 2024-04-04 03:38:30,841 "GET /student/list HTTP/1.1" 200 9726
+INFO 2024-04-04 03:38:31,605 "GET /student/13/ HTTP/1.1" 200 10504
+INFO 2024-04-04 03:38:31,631 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2024-04-04 03:38:32,652 "GET /student/delete/13/ HTTP/1.1" 200 9000
+INFO 2024-04-04 03:38:33,821 "POST /student/delete/13/ HTTP/1.1" 302 0
+INFO 2024-04-04 03:38:33,838 "GET /student/list HTTP/1.1" 200 9509
+INFO 2024-04-04 03:38:34,928 "GET /student/12/ HTTP/1.1" 200 10512
+INFO 2024-04-04 03:38:35,982 "GET /student/delete/12/ HTTP/1.1" 200 9004
+INFO 2024-04-04 03:38:36,953 "POST /student/delete/12/ HTTP/1.1" 302 0
+INFO 2024-04-04 03:38:36,969 "GET /student/list HTTP/1.1" 200 9288
+INFO 2024-04-04 03:38:37,913 "GET /student/list HTTP/1.1" 200 9288
+INFO 2024-04-04 03:38:38,795 "GET /student/create/ HTTP/1.1" 200 13019
+INFO 2024-04-04 03:42:59,363 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/models.py changed, reloading.
+INFO 2024-04-04 03:43:00,555 Watching for file changes with StatReloader
+INFO 2024-04-04 03:43:07,557 "GET / HTTP/1.1" 200 8697
+ERROR 2024-04-04 03:43:09,938 Internal Server Error: /student/list
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: students_student.resume
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: students_student.resume
+ERROR 2024-04-04 03:43:09,944 "GET /student/list HTTP/1.1" 500 236310
+INFO 2024-04-04 03:46:33,938 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/models.py changed, reloading.
+INFO 2024-04-04 03:46:35,042 Watching for file changes with StatReloader
+INFO 2024-04-04 03:46:36,871 "GET / HTTP/1.1" 200 8697
+INFO 2024-04-04 03:46:39,218 "GET /student/list HTTP/1.1" 200 9288
+INFO 2024-04-04 03:46:40,837 "GET /student/create/ HTTP/1.1" 200 13019
+WARNING 2024-04-04 03:46:46,172 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2024-04-04 03:46:46,173 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2024-04-04 03:46:46,205 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2024-04-04 03:46:46,209 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2024-04-04 03:46:46,295 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2024-04-04 03:48:17,502 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/models.py changed, reloading.
+INFO 2024-04-04 03:48:18,622 Watching for file changes with StatReloader
+INFO 2024-04-04 03:48:20,170 "GET / HTTP/1.1" 200 8697
+ERROR 2024-04-04 03:48:22,216 Internal Server Error: /student/list
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: students_student.resume
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: students_student.resume
+ERROR 2024-04-04 03:48:22,220 "GET /student/list HTTP/1.1" 500 236310
+INFO 2024-04-04 03:49:50,710 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/models.py changed, reloading.
+INFO 2024-04-04 03:49:51,633 Watching for file changes with StatReloader
+INFO 2024-04-04 03:49:53,896 "GET /student/list HTTP/1.1" 200 9288
+INFO 2024-04-04 03:49:55,334 "GET /student/create/ HTTP/1.1" 200 13019
+INFO 2024-04-04 03:52:07,440 /Users/arnavgupta/Desktop/itl/ITL_PRACTI/apps/students/models.py changed, reloading.
+INFO 2024-04-04 03:52:08,496 Watching for file changes with StatReloader
+INFO 2024-04-04 03:52:45,691 Watching for file changes with StatReloader
+INFO 2024-04-04 03:52:47,296 "GET / HTTP/1.1" 200 8697
+INFO 2024-04-04 03:52:48,849 "GET /student/list HTTP/1.1" 200 9288
+INFO 2024-04-04 03:52:50,089 "GET /student/create/ HTTP/1.1" 200 13011
+INFO 2024-04-04 03:53:32,085 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 03:53:32,113 "GET /student/1/ HTTP/1.1" 200 10687
+INFO 2024-04-04 03:53:33,472 "GET /student/list HTTP/1.1" 200 9520
+INFO 2024-04-04 03:53:35,480 "GET /student/create/ HTTP/1.1" 200 13011
+INFO 2024-04-04 03:54:13,656 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 03:54:13,673 "GET /student/2/ HTTP/1.1" 200 10680
+INFO 2024-04-04 03:54:19,432 "GET /student/list HTTP/1.1" 200 9755
+INFO 2024-04-04 03:54:21,301 "GET /student/create/ HTTP/1.1" 200 13011
+INFO 2024-04-04 03:55:13,661 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 03:55:13,679 "GET /student/3/ HTTP/1.1" 200 10668
+INFO 2024-04-04 03:55:14,955 "GET /student/list HTTP/1.1" 200 9979
+INFO 2024-04-04 03:55:17,037 "GET /staff/list/ HTTP/1.1" 200 9554
+INFO 2024-04-04 03:55:19,009 "GET /staff/9090/ HTTP/1.1" 200 10070
+INFO 2024-04-04 03:55:20,887 "GET /staff/9090/delete/ HTTP/1.1" 200 8989
+INFO 2024-04-04 03:55:21,923 "POST /staff/9090/delete/ HTTP/1.1" 302 0
+INFO 2024-04-04 03:55:21,948 "GET /staff/list/ HTTP/1.1" 200 9334
+INFO 2024-04-04 03:55:23,171 "GET /staff/2109/ HTTP/1.1" 200 10074
+INFO 2024-04-04 03:55:24,474 "GET /staff/2109/delete/ HTTP/1.1" 200 8993
+INFO 2024-04-04 03:55:25,665 "POST /staff/2109/delete/ HTTP/1.1" 302 0
+INFO 2024-04-04 03:55:25,681 "GET /staff/list/ HTTP/1.1" 200 9110
+INFO 2024-04-04 03:55:26,669 "GET /staff/create/ HTTP/1.1" 200 12258
+INFO 2024-04-04 03:55:55,232 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 03:55:55,271 "GET /staff/10/ HTTP/1.1" 200 10220
+INFO 2024-04-04 03:55:57,464 "GET /staff/list/ HTTP/1.1" 200 9331
+INFO 2024-04-04 03:55:59,511 "GET /staff/10/ HTTP/1.1" 200 10077
+INFO 2024-04-04 03:56:01,214 "GET /staff/10/delete/ HTTP/1.1" 200 8992
+INFO 2024-04-04 03:56:05,128 "POST /staff/10/delete/ HTTP/1.1" 302 0
+INFO 2024-04-04 03:56:05,149 "GET /staff/list/ HTTP/1.1" 200 9110
+INFO 2024-04-04 03:56:07,087 "GET /staff/create/ HTTP/1.1" 200 12258
+INFO 2024-04-04 03:57:23,009 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 03:57:23,029 "GET /staff/20/ HTTP/1.1" 200 10225
+INFO 2024-04-04 04:00:06,121 "GET /staff/list/ HTTP/1.1" 200 9342
+INFO 2024-04-04 04:00:07,445 "GET /staff/create/ HTTP/1.1" 200 12258
+INFO 2024-04-04 04:00:36,016 "POST /staff/create/ HTTP/1.1" 200 12395
+INFO 2024-04-04 04:00:39,385 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:00:39,406 "GET /staff/10/ HTTP/1.1" 200 10214
+INFO 2024-04-04 04:00:41,114 "GET /staff/list/ HTTP/1.1" 200 9563
+INFO 2024-04-04 04:00:46,597 "GET /staff/10/ HTTP/1.1" 200 10071
+INFO 2024-04-04 04:00:47,625 "GET /staff/10/update/ HTTP/1.1" 200 12273
+INFO 2024-04-04 04:00:53,887 "POST /staff/10/update/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:00:53,919 "GET /staff/10/ HTTP/1.1" 200 10224
+INFO 2024-04-04 04:00:55,823 "GET /staff/list/ HTTP/1.1" 200 9573
+INFO 2024-04-04 04:00:57,913 "GET /staff/create/ HTTP/1.1" 200 12258
+INFO 2024-04-04 04:01:19,104 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:01:19,150 "GET /staff/30/ HTTP/1.1" 200 10222
+INFO 2024-04-04 04:01:20,792 "GET /staff/list/ HTTP/1.1" 200 9802
+INFO 2024-04-04 04:01:22,375 "GET /staff/create/ HTTP/1.1" 200 12258
+INFO 2024-04-04 04:01:37,468 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:01:37,491 "GET /staff/40/ HTTP/1.1" 200 10221
+INFO 2024-04-04 04:01:39,002 "GET /staff/list/ HTTP/1.1" 200 10030
+INFO 2024-04-04 04:01:40,596 "GET /staff/create/ HTTP/1.1" 200 12258
+INFO 2024-04-04 04:01:57,805 "POST /staff/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:01:57,835 "GET /staff/50/ HTTP/1.1" 200 10221
+INFO 2024-04-04 04:01:59,438 "GET /staff/list/ HTTP/1.1" 200 10258
+INFO 2024-04-04 04:02:00,449 "GET /student/list HTTP/1.1" 200 9979
+INFO 2024-04-04 04:02:01,809 "GET /student/create/ HTTP/1.1" 200 13011
+INFO 2024-04-04 04:02:21,610 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:02:21,636 "GET /student/4/ HTTP/1.1" 200 10674
+INFO 2024-04-04 04:02:22,741 "GET /staff/list/ HTTP/1.1" 200 10258
+INFO 2024-04-04 04:02:24,927 "GET /staff/create/ HTTP/1.1" 200 12258
+INFO 2024-04-04 04:02:32,286 "GET /student/list HTTP/1.1" 200 10214
+INFO 2024-04-04 04:02:33,438 "GET /student/create/ HTTP/1.1" 200 13011
+INFO 2024-04-04 04:02:49,873 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:02:49,902 "GET /student/5/ HTTP/1.1" 200 10676
+INFO 2024-04-04 04:02:51,324 "GET /student/list HTTP/1.1" 200 10450
+INFO 2024-04-04 04:02:53,906 "GET /student/3/ HTTP/1.1" 200 10522
+INFO 2024-04-04 04:02:55,621 "GET /student/3/update/ HTTP/1.1" 200 13050
+INFO 2024-04-04 04:03:05,849 "POST /student/3/update/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:03:05,874 "GET /student/3/ HTTP/1.1" 200 10677
+INFO 2024-04-04 04:03:06,918 "GET /student/list HTTP/1.1" 200 10462
+INFO 2024-04-04 04:03:08,820 "GET /staff/list/ HTTP/1.1" 200 10258
+INFO 2024-04-04 04:03:10,672 "GET /subject/list/ HTTP/1.1" 200 10608
+INFO 2024-04-04 04:03:14,340 "POST /subject/create/ HTTP/1.1" 200 10013
+INFO 2024-04-04 04:03:20,895 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:03:20,914 "GET /subject/list/ HTTP/1.1" 200 11196
+INFO 2024-04-04 04:03:22,424 "GET /subject/list/ HTTP/1.1" 200 11051
+INFO 2024-04-04 04:03:28,755 "POST /subject/create/ HTTP/1.1" 200 10013
+INFO 2024-04-04 04:03:36,680 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:03:36,718 "GET /subject/list/ HTTP/1.1" 200 11640
+INFO 2024-04-04 04:03:41,990 "POST /subject/create/ HTTP/1.1" 200 10013
+INFO 2024-04-04 04:03:45,663 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:03:45,701 "GET /subject/list/ HTTP/1.1" 200 12079
+INFO 2024-04-04 04:03:46,768 "GET /subject/list/ HTTP/1.1" 200 11934
+INFO 2024-04-04 04:03:49,294 "POST /subject/create/ HTTP/1.1" 200 10013
+INFO 2024-04-04 04:03:53,355 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:03:53,387 "GET /subject/list/ HTTP/1.1" 200 12517
+INFO 2024-04-04 04:03:56,612 "POST /subject/create/ HTTP/1.1" 200 10013
+INFO 2024-04-04 04:04:00,514 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:04:00,554 "GET /subject/list/ HTTP/1.1" 200 12956
+INFO 2024-04-04 04:04:01,620 "GET /student/assign HTTP/1.1" 200 14665
+INFO 2024-04-04 04:04:04,184 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-04 04:04:04,213 "GET /student/assign HTTP/1.1" 200 14665
+INFO 2024-04-04 04:04:06,236 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-04 04:04:06,270 "GET /student/assign HTTP/1.1" 200 14665
+INFO 2024-04-04 04:04:08,663 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-04 04:04:08,695 "GET /student/assign HTTP/1.1" 200 14665
+INFO 2024-04-04 04:04:11,542 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-04 04:04:11,567 "GET /student/assign HTTP/1.1" 200 14665
+INFO 2024-04-04 04:04:14,095 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-04 04:04:14,126 "GET /student/assign HTTP/1.1" 200 14665
+INFO 2024-04-04 04:04:15,384 "GET /student/project HTTP/1.1" 200 10212
+INFO 2024-04-04 04:04:18,983 "GET /result/create/ HTTP/1.1" 200 12960
+INFO 2024-04-04 04:04:24,047 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:04:24,069 "GET /result/view/ HTTP/1.1" 200 8939
+INFO 2024-04-04 04:04:25,834 "GET /result/create/ HTTP/1.1" 200 12960
+INFO 2024-04-04 04:04:28,608 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:04:28,635 "GET /result/view/ HTTP/1.1" 200 9049
+INFO 2024-04-04 04:04:29,654 "GET /result/create/ HTTP/1.1" 200 12960
+INFO 2024-04-04 04:04:34,190 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:04:34,242 "GET /result/view/ HTTP/1.1" 200 9163
+INFO 2024-04-04 04:04:35,385 "GET /result/create/ HTTP/1.1" 200 12960
+INFO 2024-04-04 04:04:39,927 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:04:39,953 "GET /result/view/ HTTP/1.1" 200 9275
+INFO 2024-04-04 04:04:41,003 "GET /result/create/ HTTP/1.1" 200 12960
+INFO 2024-04-04 04:04:43,511 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:04:43,545 "GET /result/view/ HTTP/1.1" 200 9390
+INFO 2024-04-04 04:05:18,264 "GET /result/view/ HTTP/1.1" 200 8882
+INFO 2024-04-04 04:05:20,992 "GET /finance/list/ HTTP/1.1" 200 8824
+INFO 2024-04-04 04:05:22,566 "GET /finance/create/ HTTP/1.1" 200 11711
+INFO 2024-04-04 04:05:44,632 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:05:44,684 "GET /finance/list HTTP/1.1" 301 0
+INFO 2024-04-04 04:05:44,716 "GET /finance/list/ HTTP/1.1" 200 9238
+INFO 2024-04-04 04:05:48,208 - Broken pipe from ('127.0.0.1', 51831)
+INFO 2024-04-04 04:05:48,219 "GET /finance/receipt/create?invoice=2 HTTP/1.1" 200 9732
+INFO 2024-04-04 04:05:52,389 "POST /finance/receipt/create?invoice=2 HTTP/1.1" 302 0
+INFO 2024-04-04 04:05:52,434 "GET /finance/list/ HTTP/1.1" 200 9238
+INFO 2024-04-04 04:05:58,595 "GET /finance/create/ HTTP/1.1" 200 11711
+INFO 2024-04-04 04:06:04,455 "GET /result/view/ HTTP/1.1" 200 8882
+INFO 2024-04-04 04:06:06,534 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 04:06:09,262 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:06:09,278 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 04:06:09,297 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-04 04:06:16,839 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:06:16,855 "GET / HTTP/1.1" 200 8189
+INFO 2024-04-04 04:06:18,109 "GET /student/list HTTP/1.1" 200 9012
+INFO 2024-04-04 04:06:20,381 "GET /student/project HTTP/1.1" 200 8773
+INFO 2024-04-04 04:06:22,503 "GET /result/view/ HTTP/1.1" 200 8882
+INFO 2024-04-04 04:06:39,693 "GET /result/create/ HTTP/1.1" 200 12452
+INFO 2024-04-04 04:06:53,332 "GET /result/view/ HTTP/1.1" 200 8882
+INFO 2024-04-04 04:06:54,127 "GET /student/project HTTP/1.1" 200 8773
+INFO 2024-04-04 04:06:55,544 "GET /result/view/ HTTP/1.1" 200 8882
+INFO 2024-04-04 04:06:56,948 "GET /result/create/ HTTP/1.1" 200 12452
+INFO 2024-04-04 04:07:20,817 "GET /result/create/ HTTP/1.1" 200 12308
+INFO 2024-04-04 04:07:23,405 "GET /student/assign HTTP/1.1" 200 14157
+INFO 2024-04-04 04:07:52,451 "GET /student/assign HTTP/1.1" 200 14077
+INFO 2024-04-04 04:07:55,814 "GET /student/list HTTP/1.1" 200 9012
+INFO 2024-04-04 04:07:57,079 "GET /staff/list/ HTTP/1.1" 200 9750
+INFO 2024-04-04 04:07:58,497 "GET /subject/list/ HTTP/1.1" 200 12303
+INFO 2024-04-04 04:07:59,635 "GET /student/assign HTTP/1.1" 200 14077
+INFO 2024-04-04 04:08:00,986 "GET /student/project HTTP/1.1" 200 8773
+INFO 2024-04-04 04:08:02,387 "GET /result/create/ HTTP/1.1" 200 12308
+INFO 2024-04-04 04:08:03,549 "GET /result/view/ HTTP/1.1" 200 8882
+INFO 2024-04-04 04:08:06,120 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:08:06,125 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 04:08:06,138 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-04 04:08:11,169 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:08:11,185 "GET / HTTP/1.1" 200 8189
+INFO 2024-04-04 04:08:14,018 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 04:10:22,755 "GET /finance/list/ HTTP/1.1" 200 9238
+INFO 2024-04-04 04:12:28,416 "GET /result/create/ HTTP/1.1" 200 12308
+INFO 2024-04-04 04:12:30,601 "GET /subject/list/ HTTP/1.1" 200 12303
+INFO 2024-04-04 04:12:33,633 "GET /student/assign HTTP/1.1" 200 14077
+INFO 2024-04-04 04:12:36,464 "GET /result/view/ HTTP/1.1" 200 8882
+INFO 2024-04-04 04:12:38,280 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 04:12:56,060 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 04:13:07,224 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:13:07,238 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 04:13:07,253 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-04 04:13:41,504 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:13:41,523 "GET / HTTP/1.1" 200 8189
+INFO 2024-04-04 04:14:20,850 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 04:15:02,983 "GET /finance/list/ HTTP/1.1" 200 9238
+INFO 2024-04-04 04:15:19,331 "GET /staff/list/ HTTP/1.1" 200 9750
+INFO 2024-04-04 04:15:19,915 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 04:15:31,485 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 04:15:42,680 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 04:16:28,607 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 04:16:32,074 "GET /student/create/ HTTP/1.1" 200 12503
+INFO 2024-04-04 04:16:48,032 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 04:16:50,850 "GET /student/create/ HTTP/1.1" 200 12503
+INFO 2024-04-04 04:16:54,355 "GET /staff/list/ HTTP/1.1" 200 9750
+INFO 2024-04-04 04:16:56,967 "GET /student/list HTTP/1.1" 200 9954
+INFO 2024-04-04 04:16:58,640 "GET /student/create/ HTTP/1.1" 200 12503
+INFO 2024-04-04 04:17:25,549 "POST /student/create/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:17:25,569 "GET /student/6/ HTTP/1.1" 200 10142
+INFO 2024-04-04 04:17:28,273 "GET /student/list HTTP/1.1" 200 10176
+INFO 2024-04-04 04:18:47,652 "GET /staff/list/ HTTP/1.1" 200 9750
+INFO 2024-04-04 04:18:55,871 "GET /subject/list/ HTTP/1.1" 200 12303
+INFO 2024-04-04 04:19:04,763 "GET /student/assign HTTP/1.1" 200 15162
+INFO 2024-04-04 04:20:11,185 "GET /student/list HTTP/1.1" 200 10176
+INFO 2024-04-04 04:20:29,573 "GET / HTTP/1.1" 200 8189
+INFO 2024-04-04 04:20:32,649 "GET /student/list HTTP/1.1" 200 10176
+INFO 2024-04-04 04:21:02,919 "GET /staff/list/ HTTP/1.1" 200 9750
+INFO 2024-04-04 04:21:09,103 "GET /subject/list/ HTTP/1.1" 200 12303
+INFO 2024-04-04 04:21:15,769 "GET /student/assign HTTP/1.1" 200 15162
+INFO 2024-04-04 04:21:49,017 "GET /student/list HTTP/1.1" 200 10176
+INFO 2024-04-04 04:21:56,169 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:21:56,174 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 04:21:56,184 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-04 04:22:05,598 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:22:05,611 "GET / HTTP/1.1" 200 8189
+INFO 2024-04-04 04:22:06,865 "GET /student/project HTTP/1.1" 200 8773
+INFO 2024-04-04 04:22:08,831 "GET /student/assign HTTP/1.1" 200 15162
+INFO 2024-04-04 04:22:15,873 "POST /student/assign HTTP/1.1" 302 0
+INFO 2024-04-04 04:22:15,897 "GET /student/assign HTTP/1.1" 200 15162
+INFO 2024-04-04 04:22:17,375 "GET /student/project HTTP/1.1" 200 8774
+INFO 2024-04-04 04:23:15,930 "GET /student/list HTTP/1.1" 200 9012
+INFO 2024-04-04 04:23:20,029 "GET /student/project HTTP/1.1" 200 8774
+INFO 2024-04-04 04:36:56,346 "GET /student/list HTTP/1.1" 200 9012
+INFO 2024-04-04 04:36:59,713 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:36:59,722 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 04:36:59,736 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-04 04:37:11,220 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:37:11,234 "GET / HTTP/1.1" 200 8189
+INFO 2024-04-04 04:37:14,817 "GET /student/list HTTP/1.1" 200 10176
+INFO 2024-04-04 04:37:18,095 "GET /staff/list/ HTTP/1.1" 200 9750
+INFO 2024-04-04 04:37:20,214 "GET /subject/list/ HTTP/1.1" 200 12303
+INFO 2024-04-04 04:37:23,191 "GET /student/assign HTTP/1.1" 200 15162
+INFO 2024-04-04 04:37:26,952 "GET /student/project HTTP/1.1" 200 9873
+INFO 2024-04-04 04:37:29,310 "GET /result/create/ HTTP/1.1" 200 12926
+INFO 2024-04-04 04:37:34,218 "GET /result/view/ HTTP/1.1" 200 8882
+INFO 2024-04-04 04:37:42,819 "GET /student/list HTTP/1.1" 200 10176
+INFO 2024-04-04 04:37:48,908 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:37:48,915 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 04:37:48,924 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-04 04:37:57,966 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 04:37:57,981 "GET / HTTP/1.1" 200 8189
+INFO 2024-04-04 04:38:01,157 "GET /student/list HTTP/1.1" 200 9012
+INFO 2024-04-04 04:38:03,789 "GET /student/project HTTP/1.1" 200 8774
+INFO 2024-04-04 16:28:10,565 "GET /student/list HTTP/1.1" 302 0
+INFO 2024-04-04 16:28:10,593 "GET /accounts/login/?next=/student/list HTTP/1.1" 200 3993
+INFO 2024-04-04 16:28:10,648 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,656 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,663 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,663 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,674 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,686 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,688 "GET /static/dist/img/login.png HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,721 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,729 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,730 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,734 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,735 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,738 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:10,742 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:19,430 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 16:28:19,446 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-04 16:28:24,605 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 16:28:24,620 "GET / HTTP/1.1" 200 8189
+INFO 2024-04-04 16:28:24,646 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:24,651 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:24,776 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-04-04 16:28:29,007 "GET /student/list HTTP/1.1" 200 10176
+INFO 2024-04-04 16:28:30,280 "GET /staff/list/ HTTP/1.1" 200 9750
+INFO 2024-04-04 16:28:32,530 "GET /subject/list/ HTTP/1.1" 200 12303
+INFO 2024-04-04 16:28:33,492 "GET /student/assign HTTP/1.1" 200 15162
+INFO 2024-04-04 16:28:42,735 "GET /student/project HTTP/1.1" 200 9873
+INFO 2024-04-04 16:28:48,648 "GET /student/assign HTTP/1.1" 200 15162
+INFO 2024-04-04 16:28:50,964 "GET /result/view/ HTTP/1.1" 200 8882
+INFO 2024-04-04 16:28:57,378 "GET /result/view/ HTTP/1.1" 200 8882
+INFO 2024-04-04 16:28:58,320 "GET /student/list HTTP/1.1" 200 10176
+INFO 2024-04-04 16:29:00,401 "GET /staff/list/ HTTP/1.1" 200 9750
+INFO 2024-04-04 16:29:04,160 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-04 16:29:04,164 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 16:29:04,172 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2024-04-04 16:29:10,222 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2024-04-04 16:29:10,236 "GET / HTTP/1.1" 200 8189
+INFO 2024-04-04 16:29:11,600 "GET /student/list HTTP/1.1" 200 9012
+INFO 2024-04-04 16:29:17,842 "GET /student/list HTTP/1.1" 200 9012
+INFO 2024-04-04 16:29:18,863 "GET /student/project HTTP/1.1" 200 8774
+INFO 2024-04-04 16:29:20,733 "GET /student/assign HTTP/1.1" 200 15162
+INFO 2024-04-04 16:29:40,466 "GET / HTTP/1.1" 200 8189
+INFO 2024-04-04 16:29:41,813 "GET /student/list HTTP/1.1" 200 9012
+INFO 2024-04-04 16:29:43,063 "GET /staff/list/ HTTP/1.1" 200 9750
+INFO 2024-04-04 16:29:44,083 "GET /subject/list/ HTTP/1.1" 200 12303
+INFO 2024-04-04 16:29:45,677 "GET /student/project HTTP/1.1" 200 8774
+INFO 2024-04-04 16:29:47,375 "GET /result/create/ HTTP/1.1" 200 12926
+INFO 2024-04-04 16:29:49,175 "GET /student/list HTTP/1.1" 200 9012
+INFO 2024-04-04 16:29:50,910 "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2024-04-04 16:29:50,915 "GET / HTTP/1.1" 302 0
+INFO 2024-04-04 16:29:50,924 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
